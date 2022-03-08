@@ -36,5 +36,5 @@ if [ ! -f "$TRACE" ] ; then
 fi
 
 mkdir -p results_${N_SIM}M
-(${BINARY} -warmup_instructions ${N_WARM}000000 -simulation_instructions ${N_SIM}000000 ${OPTION} -config ${CONFIG} -traces ${TRACE})  &>> results_${N_SIM}M/${TRACE:39:3}-${BINARY:53}.txt
+(${BINARY} -warmup_instructions ${N_WARM}000000 -simulation_instructions ${N_SIM}000000 ${OPTION} -config ${CONFIG} -traces ${TRACE})  &>> results_${N_SIM}M/${TRACE:39:3}-${BINARY:52}.txt
 # (${BINARY} -warmup_instructions ${N_WARM}000000 -simulation_instructions ${N_SIM}000000 ${OPTION} -config ${CONFIG} -traces ${TRACE})  &>> results_${N_SIM}M/${TRACE:37:3}-${BINARY:4}.txt

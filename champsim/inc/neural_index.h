@@ -5,40 +5,6 @@
   
 extern string CONFIG_FILE;
 
-struct Sample {
-    double*  state      = NULL;
-    double*  next_state = NULL;
-    uint32_t action     = 0;
-    float    reward     = 0;
-
-    Sample() {}
-    Sample(double* _s, double* _ns)
-        :state(_s), next_state(_ns) {}
-
-    ~Sample() {
-        delete[] state;
-        delete[] next_state;
-    }
-};
-
-struct Pair {
-    Pair(uint64_t a, uint64_t b)
-        :val_a(a), val_b(b) {}
-    uint64_t val_a = 0;
-    uint64_t val_b = 0;
-
-    bool static cmp_val_a(const Pair &p1, const Pair &p2) { return p1.val_a > p2.val_a; }
-    bool static cmp_val_b(const Pair &p1, const Pair &p2) { return p1.val_b > p2.val_b; }
-};
-
-struct Action {
-    Action(uint32_t a1, uint32_t a2, uint32_t a3)
-        :lo(a1), mi(a2), hi(a3) {}
-    uint32_t lo = 0;
-    uint32_t mi = 0;
-    uint32_t hi = 0;
-};
-
 
 //========================================================================//
 // CLASS NEURAL_INDEX
@@ -123,18 +89,5 @@ private:
     uint8_t  cache_type;    // can be IS_LLC, IS_L1D, IS_L2C
     BLOCK**  block_array;   // ptr to the block array of the cache
 };
-
-//========================================================================//
-// HELPER FUNCTIONS
-//========================================================================//
-int32_t readPortConfig(string filename);
-string readIPConfig(string filename);
-int32_t createSocket();
-double compute_mean(uint64_t* array, uint32_t array_size);
-double compute_std_dev(uint64_t* array, uint32_t array_size, double mean);
-string flatten(double* array, uint64_t end_pt, uint64_t start_pt);
-void override_block(BLOCK *src, BLOCK *des);
-vector<uint64_t> get_significant_indices(uint64_t* array, uint32_t array_size, double mean, uint32_t num_select);
-uint64_t compute_sum(uint64_t* array, uint32_t array_size);
 
 #endif // NEURAL_INDEX_H
