@@ -456,7 +456,6 @@ void CACHE::handle_writeback()
 		                if (cache_type == IS_L1I)
 		                    l1i_prefetcher_cache_fill(writeback_cpu, ((WQ.entry[index].ip)>>LOG2_BLOCK_SIZE)<<LOG2_BLOCK_SIZE, set, way, 0, ((block[set][way].ip)>>LOG2_BLOCK_SIZE)<<LOG2_BLOCK_SIZE);
                     if (cache_type == IS_L1D) {
-                        cout << "hello" << endl; 
 		                    l1d_prefetcher_cache_fill(WQ.entry[index].full_addr, set, way, 0, block[set][way].address<<LOG2_BLOCK_SIZE, WQ.entry[index].pf_metadata);
                     }
                     else if (cache_type == IS_L2C)
@@ -1057,10 +1056,7 @@ uint32_t CACHE::get_set(uint64_t address)
         return smart_index->get_set(address);
     }
     else {
-        if (cache_type == IS_LLC)
-            return address % PRIME;
-        else
-            return (uint32_t) (address & ((1 << lg2(NUM_SET)) - 1)); 
+        return (uint32_t) (address & ((1 << lg2(NUM_SET)) - 1)); 
     }
 }
 

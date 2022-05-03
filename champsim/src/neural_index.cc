@@ -1,7 +1,4 @@
 #include "neural_index.h"
-#include <sys/socket.h>
-#include <arpa/inet.h>
-
 
 //========================================================================//
 // STATIC PARAMETERS

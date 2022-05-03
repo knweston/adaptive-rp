@@ -2,6 +2,8 @@
 #define CACHE_GLOBAL_H
 
 #include "memory_class.h"
+#include <sys/socket.h>
+#include <arpa/inet.h>
 
 // CACHE TYPE
 #define IS_ITLB 0
@@ -40,8 +42,8 @@
 #define L2C_LATENCY 8      // 4 (L1I or L1D) + 8 = 12 cycles
 
 // LAST LEVEL CACHE
-#define LLC_SET NUM_CPUS*4096
-#define LLC_WAY 8
+#define LLC_SET NUM_CPUS*2048
+#define LLC_WAY 16
 #define LLC_RQ_SIZE NUM_CPUS*L2C_MSHR_SIZE //48
 #define LLC_WQ_SIZE NUM_CPUS*L2C_MSHR_SIZE //48
 #define LLC_PQ_SIZE NUM_CPUS*32
@@ -49,8 +51,8 @@
 #define LLC_LATENCY ((LLC_WAY == 1) ? 24 : ((LLC_WAY == 16) ? 32 : 24))     // 4 (L1I or L1D) + 8 (L2C) + 24/26/32 = 36/38/44 cycles
 
 #define BASELINE_RUN 1
-#define PRIME ((LLC_SET == 4096) ? 4093 : ((LLC_SET == 8192) ? 8191 : 16381))
 
+extern string CONFIG_FILE;
 
 struct Sample {
     double*  state      = NULL;

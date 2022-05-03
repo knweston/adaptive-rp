@@ -2,6 +2,7 @@
 #define CACHE_H
 
 #include "neural_index.h"
+#include "neural_repl.h"
 
 // PAGE
 extern uint32_t PAGE_TABLE_LATENCY, SWAP_LATENCY;
@@ -71,6 +72,7 @@ class CACHE : public MEMORY {
 
     // smart index ptr [Kevin]
     NeuralIndex* smart_index = NULL;
+    NeuralRepl* neural_repl = NULL;
     
     // constructor
     CACHE(string v1, uint32_t v2, int v3, uint32_t v4, uint32_t v5, uint32_t v6, uint32_t v7, uint32_t v8) 
@@ -125,6 +127,7 @@ class CACHE : public MEMORY {
         delete[] block;
 
         delete smart_index; // [Kevin]
+        delete neural_repl;
     };
 
     // functions

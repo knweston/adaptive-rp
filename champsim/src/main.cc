@@ -578,7 +578,9 @@ int main(int argc, char** argv)
     cout << "L2C sets: " << L2C_SET << ". L2C ways: " << L2C_WAY << endl;
     cout << "LLC sets: " << LLC_SET << ". LLC ways: " << LLC_WAY << endl;
     cout << "LLC LATENCY: " << LLC_LATENCY << endl;
-    cout << "PRIME NO:    " << PRIME << endl;
+#ifdef LLC_BYPASS
+    cout << "LLC BYPASS enabled" << endl;
+#endif
 
     if (knob_low_bandwidth)
         DRAM_MTPS = DRAM_IO_FREQ/4;
@@ -806,14 +808,14 @@ int main(int argc, char** argv)
     uncore.LLC.llc_prefetcher_initialize();
 
     // initialize smart index structure [Kevin]
-    if (!BASELINE_RUN) {
-        for (int i=0; i<NUM_CPUS; i++) {
-            // ooo_cpu[i].L1D.smart_index = new NeuralIndex(IS_L1D, 512, 200, ooo_cpu[i].L1D.block, i);    // 200, 500, 1000, 2000
-            // ooo_cpu[i].L2C.smart_index = new NeuralIndex(IS_L2C, 4096, 20, ooo_cpu[i].L2C.block, i);    // 20,  50,  100,  200
-        }
-        uncore.LLC.smart_index = new NeuralIndex(IS_LLC, 8192, 25, uncore.LLC.block, 0);
-        NeuralIndex::init_connection(); // initiate connection to the DQN server
-    }
+    // if (!BASELINE_RUN) {
+    //     for (int i=0; i<NUM_CPUS; i++) {
+    //         // ooo_cpu[i].L1D.smart_index = new NeuralIndex(IS_L1D, 512, 200, ooo_cpu[i].L1D.block, i);    // 200, 500, 1000, 2000
+    //         // ooo_cpu[i].L2C.smart_index = new NeuralIndex(IS_L2C, 4096, 20, ooo_cpu[i].L2C.block, i);    // 20,  50,  100,  200
+    //     }
+    //     uncore.LLC.smart_index = new NeuralIndex(IS_LLC, 8192, 25, uncore.LLC.block, 0);
+    //     NeuralIndex::init_connection(); // initiate connection to the DQN server
+    // }
 
     // simulation entry point
     start_time = time(NULL);
@@ -985,35 +987,35 @@ int main(int argc, char** argv)
 #endif
 
     // disconnect to the DQN server [Kevin]
-    if (!BASELINE_RUN) {
-        vector<string> models;
-        for (int i=0; i<NUM_CPUS; i++) {
-            if (ooo_cpu[i].L1D.smart_index) {
-                models.push_back("L1D");
-                break;
-            }
-        }
+    // if (!BASELINE_RUN) {
+    //     vector<string> models;
+    //     for (int i=0; i<NUM_CPUS; i++) {
+    //         if (ooo_cpu[i].L1D.smart_index) {
+    //             models.push_back("L1D");
+    //             break;
+    //         }
+    //     }
 
-        for (int i=0; i<NUM_CPUS; i++) {
-            if (ooo_cpu[i].L2C.smart_index) {
-                models.push_back("L2C");
-                break;
-            }
-        }
+    //     for (int i=0; i<NUM_CPUS; i++) {
+    //         if (ooo_cpu[i].L2C.smart_index) {
+    //             models.push_back("L2C");
+    //             break;
+    //         }
+    //     }
 
-        if (uncore.LLC.smart_index)
-            models.push_back("LLC");
+    //     if (uncore.LLC.smart_index)
+    //         models.push_back("LLC");
 
-        NeuralIndex::close_connection(models); 
+    //     NeuralIndex::close_connection(models); 
 
-        // print smart index statistics [Kevin]
+    //     // print smart index statistics [Kevin]
     
-        for (int i=0; i<NUM_CPUS; i++) {
-            // ooo_cpu[i].L1D.smart_index->print_stats();
-            // ooo_cpu[i].L2C.smart_index->print_stats();
-        }
-        uncore.LLC.smart_index->print_stats();
-    }
+    //     for (int i=0; i<NUM_CPUS; i++) {
+    //         // ooo_cpu[i].L1D.smart_index->print_stats();
+    //         // ooo_cpu[i].L2C.smart_index->print_stats();
+    //     }
+    //     uncore.LLC.smart_index->print_stats();
+    // }
 
     return 0;
 }

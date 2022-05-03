@@ -28,7 +28,6 @@ void init_global_history() {
             ss >> ip;
             ss >> type;
             
-
             // skip zero address
             if (!address)
                 continue;
