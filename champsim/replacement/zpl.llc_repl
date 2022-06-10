@@ -1,0 +1,63 @@
+#include "neural_repl.h"
+#include "cache.h"
+
+
+// initialize replacement state
+void CACHE::llc_initialize_replacement()
+{
+    neural_repl = new NeuralRepl();
+    // NeuralRepl::init_connection();
+}
+
+// find replacement victim
+uint32_t CACHE::llc_find_victim(uint32_t cpu, uint64_t instr_id, uint32_t set, const BLOCK *current_set, uint64_t ip, uint64_t full_addr, uint32_t type)
+{   
+    bool is_bypass = false;
+
+    // check bypass decision if this is not a WRITEBACK access
+    if (type != WRITEBACK) {
+        // is_bypass = neural_repl->get_prediction(ip, full_addr>>LOG2_BLOCK_SIZE);
+    }
+
+    // if not bypass, get victim from baseline LRU
+    if (!is_bypass)
+        return lru_victim(cpu, instr_id, set, current_set, ip, full_addr, type);
+}
+
+// called on every cache hit and cache fill
+void CACHE::llc_update_replacement_state(uint32_t cpu, uint32_t set, uint32_t way, uint64_t full_addr, uint64_t ip, uint64_t victim_addr, uint32_t type, uint8_t hit)
+{
+    if ((type == WRITEBACK) && ip)
+        assert(0);
+
+    if (way == LLC_WAY) {     // update upon bypass
+        if (hit)
+            assert(0);
+        return;
+    }
+
+    // update ZPL
+    if (hit) {
+        neural_repl->hitmap[set][way] = 1;
+    }
+    else {
+        // if a valid victim block has never been accessed (not a WRITEBACK), record the sample
+        if (block[set][way].valid && !neural_repl->hitmap[set][way] && neural_repl->ip_table[set][way]) {
+            neural_repl->add_sample(neural_repl->ip_table[set][way], full_addr>>LOG2_BLOCK_SIZE);
+        }
+
+        // record counters of the incoming block
+        neural_repl->hitmap[set][way] = 0;
+        neural_repl->ip_table[set][way] = ip;
+    }
+
+    // baseline LRU
+    if (hit && (type == WRITEBACK)) // writeback hit does not update LRU state
+        return;
+    return lru_update(set, way);
+}
+
+void CACHE::llc_replacement_final_stats()
+{
+    // NeuralRepl::close_connection();
+}

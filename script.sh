@@ -1,0 +1,10 @@
+python3 sbatch-auto.py -a spec -c grace -o prrip-2 -e prrip-2
+python3 sbatch-auto.py -a spec -c grace -o prrip-3 -e prrip-3
+python3 sbatch-auto.py -a spec -c grace -o prrip-4 -e prrip-4
+python3 sbatch-auto.py -a spec -c grace -o prrip-5 -e prrip-5
+python3 sbatch-auto.py -a spec -c grace -o prrip-6 -e prrip-6
+python3 sbatch-auto.py -a spec -c grace -o prrip-7 -e prrip-7
+python3 sbatch-auto.py -a spec -c grace -o prrip-8 -e prrip-8
+python3 sbatch-auto.py -a spec -c grace -o prrip-9 -e prrip-9
+python3 sbatch-auto.py -a spec -c grace -o prrip-10 -e prrip-10
+python3 sbatch-auto.py -a spec -c grace -o prrip-11 -e prrip-11

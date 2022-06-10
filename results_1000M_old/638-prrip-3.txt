@@ -1,0 +1,2237 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 100000000
+Simulation Instructions: 1000000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs /scratch/user/kevin.weston/dpc3-traces/638.champsimtrace.xz
+CPU 0 Bimodal branch predictor
+Initialize RRPV
+Initialize PRRIP state
+Heartbeat CPU 0 instructions: 10000001 cycles: 2862043 heartbeat IPC: 3.49401 cumulative IPC: 3.49401 (Simulation time: 0 hr 0 min 15 sec) 
+Heartbeat CPU 0 instructions: 20000002 cycles: 5723727 heartbeat IPC: 3.49445 cumulative IPC: 3.49423 (Simulation time: 0 hr 0 min 30 sec) 
+Heartbeat CPU 0 instructions: 30000000 cycles: 8585373 heartbeat IPC: 3.49449 cumulative IPC: 3.49432 (Simulation time: 0 hr 0 min 45 sec) 
+Heartbeat CPU 0 instructions: 40000001 cycles: 11447089 heartbeat IPC: 3.49441 cumulative IPC: 3.49434 (Simulation time: 0 hr 1 min 0 sec) 
+Heartbeat CPU 0 instructions: 50000000 cycles: 14308837 heartbeat IPC: 3.49437 cumulative IPC: 3.49434 (Simulation time: 0 hr 1 min 14 sec) 
+Heartbeat CPU 0 instructions: 60000000 cycles: 17170388 heartbeat IPC: 3.49461 cumulative IPC: 3.49439 (Simulation time: 0 hr 1 min 29 sec) 
+Heartbeat CPU 0 instructions: 70000003 cycles: 20031920 heartbeat IPC: 3.49463 cumulative IPC: 3.49442 (Simulation time: 0 hr 1 min 44 sec) 
+Heartbeat CPU 0 instructions: 80000001 cycles: 22893521 heartbeat IPC: 3.49455 cumulative IPC: 3.49444 (Simulation time: 0 hr 1 min 58 sec) 
+Heartbeat CPU 0 instructions: 90000001 cycles: 25755113 heartbeat IPC: 3.49456 cumulative IPC: 3.49445 (Simulation time: 0 hr 2 min 13 sec) 
+Heartbeat CPU 0 instructions: 100000002 cycles: 28616733 heartbeat IPC: 3.49452 cumulative IPC: 3.49446 (Simulation time: 0 hr 2 min 28 sec) 
+
+Warmup complete CPU 0 instructions: 100000002 cycles: 28616733 (Simulation time: 0 hr 2 min 28 sec) 
+
+Heartbeat CPU 0 instructions: 110000000 cycles: 32949108 heartbeat IPC: 2.3082 cumulative IPC: 2.3082 (Simulation time: 0 hr 2 min 41 sec) 
+Heartbeat CPU 0 instructions: 120000000 cycles: 37290250 heartbeat IPC: 2.30354 cumulative IPC: 2.30587 (Simulation time: 0 hr 2 min 53 sec) 
+Heartbeat CPU 0 instructions: 130000003 cycles: 41629520 heartbeat IPC: 2.30454 cumulative IPC: 2.30542 (Simulation time: 0 hr 3 min 6 sec) 
+Heartbeat CPU 0 instructions: 140000001 cycles: 45969504 heartbeat IPC: 2.30416 cumulative IPC: 2.30511 (Simulation time: 0 hr 3 min 19 sec) 
+Heartbeat CPU 0 instructions: 150000000 cycles: 50309907 heartbeat IPC: 2.30393 cumulative IPC: 2.30487 (Simulation time: 0 hr 3 min 31 sec) 
+Heartbeat CPU 0 instructions: 160000003 cycles: 54649800 heartbeat IPC: 2.3042 cumulative IPC: 2.30476 (Simulation time: 0 hr 3 min 44 sec) 
+Heartbeat CPU 0 instructions: 170000000 cycles: 58990315 heartbeat IPC: 2.30387 cumulative IPC: 2.30463 (Simulation time: 0 hr 3 min 57 sec) 
+Heartbeat CPU 0 instructions: 180000001 cycles: 63330094 heartbeat IPC: 2.30427 cumulative IPC: 2.30459 (Simulation time: 0 hr 4 min 10 sec) 
+Heartbeat CPU 0 instructions: 190000002 cycles: 67669755 heartbeat IPC: 2.30433 cumulative IPC: 2.30456 (Simulation time: 0 hr 4 min 22 sec) 
+Heartbeat CPU 0 instructions: 200000003 cycles: 72011046 heartbeat IPC: 2.30346 cumulative IPC: 2.30445 (Simulation time: 0 hr 4 min 35 sec) 
+Heartbeat CPU 0 instructions: 210000003 cycles: 76355351 heartbeat IPC: 2.30186 cumulative IPC: 2.30421 (Simulation time: 0 hr 4 min 48 sec) 
+Heartbeat CPU 0 instructions: 220000000 cycles: 80704315 heartbeat IPC: 2.2994 cumulative IPC: 2.30381 (Simulation time: 0 hr 5 min 1 sec) 
+Heartbeat CPU 0 instructions: 230000002 cycles: 85058089 heartbeat IPC: 2.29686 cumulative IPC: 2.30328 (Simulation time: 0 hr 5 min 14 sec) 
+Heartbeat CPU 0 instructions: 240000001 cycles: 89417589 heartbeat IPC: 2.29384 cumulative IPC: 2.3026 (Simulation time: 0 hr 5 min 27 sec) 
+Heartbeat CPU 0 instructions: 250000000 cycles: 93781618 heartbeat IPC: 2.29146 cumulative IPC: 2.30185 (Simulation time: 0 hr 5 min 40 sec) 
+Heartbeat CPU 0 instructions: 260000003 cycles: 98146526 heartbeat IPC: 2.291 cumulative IPC: 2.30117 (Simulation time: 0 hr 5 min 53 sec) 
+Heartbeat CPU 0 instructions: 270000001 cycles: 102512885 heartbeat IPC: 2.29024 cumulative IPC: 2.30053 (Simulation time: 0 hr 6 min 6 sec) 
+Heartbeat CPU 0 instructions: 280000003 cycles: 106878400 heartbeat IPC: 2.29068 cumulative IPC: 2.29998 (Simulation time: 0 hr 6 min 19 sec) 
+Heartbeat CPU 0 instructions: 290000003 cycles: 111241903 heartbeat IPC: 2.29174 cumulative IPC: 2.29954 (Simulation time: 0 hr 6 min 32 sec) 
+Heartbeat CPU 0 instructions: 300000002 cycles: 115604772 heartbeat IPC: 2.29207 cumulative IPC: 2.29917 (Simulation time: 0 hr 6 min 45 sec) 
+Heartbeat CPU 0 instructions: 310000003 cycles: 119967746 heartbeat IPC: 2.29201 cumulative IPC: 2.29883 (Simulation time: 0 hr 6 min 58 sec) 
+Heartbeat CPU 0 instructions: 320000003 cycles: 124331590 heartbeat IPC: 2.29156 cumulative IPC: 2.29849 (Simulation time: 0 hr 7 min 12 sec) 
+Heartbeat CPU 0 instructions: 330000000 cycles: 128694997 heartbeat IPC: 2.29179 cumulative IPC: 2.2982 (Simulation time: 0 hr 7 min 25 sec) 
+Heartbeat CPU 0 instructions: 340000002 cycles: 133058614 heartbeat IPC: 2.29168 cumulative IPC: 2.29793 (Simulation time: 0 hr 7 min 38 sec) 
+Heartbeat CPU 0 instructions: 350000000 cycles: 137421111 heartbeat IPC: 2.29226 cumulative IPC: 2.2977 (Simulation time: 0 hr 7 min 51 sec) 
+Heartbeat CPU 0 instructions: 360000001 cycles: 141782860 heartbeat IPC: 2.29266 cumulative IPC: 2.29751 (Simulation time: 0 hr 8 min 4 sec) 
+Heartbeat CPU 0 instructions: 370000003 cycles: 146144944 heartbeat IPC: 2.29248 cumulative IPC: 2.29732 (Simulation time: 0 hr 8 min 17 sec) 
+Heartbeat CPU 0 instructions: 380000001 cycles: 150508175 heartbeat IPC: 2.29188 cumulative IPC: 2.29713 (Simulation time: 0 hr 8 min 31 sec) 
+Heartbeat CPU 0 instructions: 390000001 cycles: 154866924 heartbeat IPC: 2.29424 cumulative IPC: 2.29703 (Simulation time: 0 hr 8 min 44 sec) 
+Heartbeat CPU 0 instructions: 400000002 cycles: 159217875 heartbeat IPC: 2.29835 cumulative IPC: 2.29707 (Simulation time: 0 hr 8 min 57 sec) 
+Heartbeat CPU 0 instructions: 410000002 cycles: 163565756 heartbeat IPC: 2.29997 cumulative IPC: 2.29716 (Simulation time: 0 hr 9 min 10 sec) 
+Heartbeat CPU 0 instructions: 420000001 cycles: 167911869 heartbeat IPC: 2.30091 cumulative IPC: 2.29728 (Simulation time: 0 hr 9 min 23 sec) 
+Heartbeat CPU 0 instructions: 430000003 cycles: 172256833 heartbeat IPC: 2.30152 cumulative IPC: 2.29741 (Simulation time: 0 hr 9 min 36 sec) 
+Heartbeat CPU 0 instructions: 440000000 cycles: 176600885 heartbeat IPC: 2.302 cumulative IPC: 2.29754 (Simulation time: 0 hr 9 min 48 sec) 
+Heartbeat CPU 0 instructions: 450000000 cycles: 180942554 heartbeat IPC: 2.30326 cumulative IPC: 2.29771 (Simulation time: 0 hr 10 min 1 sec) 
+Heartbeat CPU 0 instructions: 460000002 cycles: 185282436 heartbeat IPC: 2.30421 cumulative IPC: 2.29789 (Simulation time: 0 hr 10 min 14 sec) 
+Heartbeat CPU 0 instructions: 470000003 cycles: 189623008 heartbeat IPC: 2.30384 cumulative IPC: 2.29805 (Simulation time: 0 hr 10 min 27 sec) 
+Heartbeat CPU 0 instructions: 480000000 cycles: 193963200 heartbeat IPC: 2.30404 cumulative IPC: 2.2982 (Simulation time: 0 hr 10 min 40 sec) 
+Heartbeat CPU 0 instructions: 490000001 cycles: 198305720 heartbeat IPC: 2.30281 cumulative IPC: 2.29832 (Simulation time: 0 hr 10 min 53 sec) 
+Heartbeat CPU 0 instructions: 500000001 cycles: 202643594 heartbeat IPC: 2.30528 cumulative IPC: 2.2985 (Simulation time: 0 hr 11 min 5 sec) 
+Heartbeat CPU 0 instructions: 510000000 cycles: 206985044 heartbeat IPC: 2.30338 cumulative IPC: 2.29861 (Simulation time: 0 hr 11 min 18 sec) 
+Heartbeat CPU 0 instructions: 520000001 cycles: 211326360 heartbeat IPC: 2.30345 cumulative IPC: 2.29873 (Simulation time: 0 hr 11 min 31 sec) 
+Heartbeat CPU 0 instructions: 530000003 cycles: 215668515 heartbeat IPC: 2.303 cumulative IPC: 2.29883 (Simulation time: 0 hr 11 min 44 sec) 
+Heartbeat CPU 0 instructions: 540000001 cycles: 220010882 heartbeat IPC: 2.30289 cumulative IPC: 2.29892 (Simulation time: 0 hr 11 min 56 sec) 
+Heartbeat CPU 0 instructions: 550000000 cycles: 224355646 heartbeat IPC: 2.30162 cumulative IPC: 2.29898 (Simulation time: 0 hr 12 min 9 sec) 
+Heartbeat CPU 0 instructions: 560000002 cycles: 228696991 heartbeat IPC: 2.30343 cumulative IPC: 2.29908 (Simulation time: 0 hr 12 min 22 sec) 
+Heartbeat CPU 0 instructions: 570000001 cycles: 233036003 heartbeat IPC: 2.30467 cumulative IPC: 2.2992 (Simulation time: 0 hr 12 min 35 sec) 
+Heartbeat CPU 0 instructions: 580000000 cycles: 237374966 heartbeat IPC: 2.3047 cumulative IPC: 2.29931 (Simulation time: 0 hr 12 min 47 sec) 
+Heartbeat CPU 0 instructions: 590000002 cycles: 241714699 heartbeat IPC: 2.30429 cumulative IPC: 2.29941 (Simulation time: 0 hr 13 min 0 sec) 
+Heartbeat CPU 0 instructions: 600000003 cycles: 246054126 heartbeat IPC: 2.30445 cumulative IPC: 2.29951 (Simulation time: 0 hr 13 min 13 sec) 
+Heartbeat CPU 0 instructions: 610000001 cycles: 250396556 heartbeat IPC: 2.30286 cumulative IPC: 2.29958 (Simulation time: 0 hr 13 min 26 sec) 
+Heartbeat CPU 0 instructions: 620000002 cycles: 254740562 heartbeat IPC: 2.30202 cumulative IPC: 2.29962 (Simulation time: 0 hr 13 min 38 sec) 
+Heartbeat CPU 0 instructions: 630000001 cycles: 259081619 heartbeat IPC: 2.30359 cumulative IPC: 2.2997 (Simulation time: 0 hr 13 min 51 sec) 
+Heartbeat CPU 0 instructions: 640000003 cycles: 263425019 heartbeat IPC: 2.30234 cumulative IPC: 2.29975 (Simulation time: 0 hr 14 min 4 sec) 
+Heartbeat CPU 0 instructions: 650000001 cycles: 267767281 heartbeat IPC: 2.30295 cumulative IPC: 2.29981 (Simulation time: 0 hr 14 min 17 sec) 
+Heartbeat CPU 0 instructions: 660000000 cycles: 272110799 heartbeat IPC: 2.30228 cumulative IPC: 2.29985 (Simulation time: 0 hr 14 min 30 sec) 
+Heartbeat CPU 0 instructions: 670000001 cycles: 276454197 heartbeat IPC: 2.30235 cumulative IPC: 2.29989 (Simulation time: 0 hr 14 min 42 sec) 
+Heartbeat CPU 0 instructions: 680000002 cycles: 280796646 heartbeat IPC: 2.30285 cumulative IPC: 2.29995 (Simulation time: 0 hr 14 min 55 sec) 
+Heartbeat CPU 0 instructions: 690000002 cycles: 285138539 heartbeat IPC: 2.30314 cumulative IPC: 2.3 (Simulation time: 0 hr 15 min 8 sec) 
+Heartbeat CPU 0 instructions: 700000003 cycles: 289479370 heartbeat IPC: 2.30371 cumulative IPC: 2.30006 (Simulation time: 0 hr 15 min 21 sec) 
+Heartbeat CPU 0 instructions: 710000000 cycles: 293820665 heartbeat IPC: 2.30346 cumulative IPC: 2.30012 (Simulation time: 0 hr 15 min 34 sec) 
+Heartbeat CPU 0 instructions: 720000001 cycles: 298160729 heartbeat IPC: 2.30411 cumulative IPC: 2.30018 (Simulation time: 0 hr 15 min 47 sec) 
+Heartbeat CPU 0 instructions: 730000001 cycles: 302501334 heartbeat IPC: 2.30383 cumulative IPC: 2.30024 (Simulation time: 0 hr 15 min 59 sec) 
+Heartbeat CPU 0 instructions: 740000000 cycles: 306846673 heartbeat IPC: 2.30132 cumulative IPC: 2.30026 (Simulation time: 0 hr 16 min 12 sec) 
+Heartbeat CPU 0 instructions: 750000001 cycles: 311194239 heartbeat IPC: 2.30014 cumulative IPC: 2.30025 (Simulation time: 0 hr 16 min 25 sec) 
+Heartbeat CPU 0 instructions: 760000001 cycles: 315543800 heartbeat IPC: 2.29908 cumulative IPC: 2.30024 (Simulation time: 0 hr 16 min 38 sec) 
+Heartbeat CPU 0 instructions: 770000000 cycles: 319892740 heartbeat IPC: 2.29941 cumulative IPC: 2.30022 (Simulation time: 0 hr 16 min 51 sec) 
+Heartbeat CPU 0 instructions: 780000001 cycles: 324242067 heartbeat IPC: 2.29921 cumulative IPC: 2.30021 (Simulation time: 0 hr 17 min 4 sec) 
+Heartbeat CPU 0 instructions: 790000003 cycles: 328592852 heartbeat IPC: 2.29844 cumulative IPC: 2.30018 (Simulation time: 0 hr 17 min 17 sec) 
+Heartbeat CPU 0 instructions: 800000002 cycles: 332944460 heartbeat IPC: 2.298 cumulative IPC: 2.30015 (Simulation time: 0 hr 17 min 29 sec) 
+Heartbeat CPU 0 instructions: 810000000 cycles: 337316498 heartbeat IPC: 2.28726 cumulative IPC: 2.29997 (Simulation time: 0 hr 17 min 42 sec) 
+Heartbeat CPU 0 instructions: 820000002 cycles: 341701216 heartbeat IPC: 2.28065 cumulative IPC: 2.2997 (Simulation time: 0 hr 17 min 55 sec) 
+Heartbeat CPU 0 instructions: 830000000 cycles: 346093978 heartbeat IPC: 2.27647 cumulative IPC: 2.29938 (Simulation time: 0 hr 18 min 8 sec) 
+Heartbeat CPU 0 instructions: 840000001 cycles: 350483459 heartbeat IPC: 2.27817 cumulative IPC: 2.29909 (Simulation time: 0 hr 18 min 21 sec) 
+Heartbeat CPU 0 instructions: 850000002 cycles: 354851417 heartbeat IPC: 2.2894 cumulative IPC: 2.29896 (Simulation time: 0 hr 18 min 34 sec) 
+Heartbeat CPU 0 instructions: 860000002 cycles: 359215961 heartbeat IPC: 2.29119 cumulative IPC: 2.29886 (Simulation time: 0 hr 18 min 47 sec) 
+Heartbeat CPU 0 instructions: 870000000 cycles: 363582449 heartbeat IPC: 2.29017 cumulative IPC: 2.29874 (Simulation time: 0 hr 19 min 0 sec) 
+Heartbeat CPU 0 instructions: 880000000 cycles: 367940048 heartbeat IPC: 2.29484 cumulative IPC: 2.29869 (Simulation time: 0 hr 19 min 12 sec) 
+Heartbeat CPU 0 instructions: 890000001 cycles: 372295455 heartbeat IPC: 2.296 cumulative IPC: 2.29866 (Simulation time: 0 hr 19 min 25 sec) 
+Heartbeat CPU 0 instructions: 900000001 cycles: 376645198 heartbeat IPC: 2.29899 cumulative IPC: 2.29866 (Simulation time: 0 hr 19 min 38 sec) 
+Heartbeat CPU 0 instructions: 910000002 cycles: 380994247 heartbeat IPC: 2.29935 cumulative IPC: 2.29867 (Simulation time: 0 hr 19 min 51 sec) 
+Heartbeat CPU 0 instructions: 920000001 cycles: 385342243 heartbeat IPC: 2.29991 cumulative IPC: 2.29869 (Simulation time: 0 hr 20 min 4 sec) 
+Heartbeat CPU 0 instructions: 930000000 cycles: 389688491 heartbeat IPC: 2.30083 cumulative IPC: 2.29871 (Simulation time: 0 hr 20 min 17 sec) 
+Heartbeat CPU 0 instructions: 940000000 cycles: 394034092 heartbeat IPC: 2.30118 cumulative IPC: 2.29874 (Simulation time: 0 hr 20 min 30 sec) 
+Heartbeat CPU 0 instructions: 950000000 cycles: 398381569 heartbeat IPC: 2.30018 cumulative IPC: 2.29876 (Simulation time: 0 hr 20 min 42 sec) 
+Heartbeat CPU 0 instructions: 960000002 cycles: 402730852 heartbeat IPC: 2.29923 cumulative IPC: 2.29876 (Simulation time: 0 hr 20 min 55 sec) 
+Heartbeat CPU 0 instructions: 970000002 cycles: 407077696 heartbeat IPC: 2.30052 cumulative IPC: 2.29878 (Simulation time: 0 hr 21 min 8 sec) 
+Heartbeat CPU 0 instructions: 980000001 cycles: 411425871 heartbeat IPC: 2.29982 cumulative IPC: 2.2988 (Simulation time: 0 hr 21 min 21 sec) 
+Heartbeat CPU 0 instructions: 990000000 cycles: 415772380 heartbeat IPC: 2.3007 cumulative IPC: 2.29882 (Simulation time: 0 hr 21 min 34 sec) 
+Heartbeat CPU 0 instructions: 1000000003 cycles: 420118885 heartbeat IPC: 2.3007 cumulative IPC: 2.29884 (Simulation time: 0 hr 21 min 47 sec) 
+Heartbeat CPU 0 instructions: 1010000000 cycles: 424465695 heartbeat IPC: 2.30054 cumulative IPC: 2.29886 (Simulation time: 0 hr 21 min 59 sec) 
+Heartbeat CPU 0 instructions: 1020000001 cycles: 428809541 heartbeat IPC: 2.30211 cumulative IPC: 2.29889 (Simulation time: 0 hr 22 min 12 sec) 
+Heartbeat CPU 0 instructions: 1030000003 cycles: 433152808 heartbeat IPC: 2.30241 cumulative IPC: 2.29893 (Simulation time: 0 hr 22 min 25 sec) 
+Heartbeat CPU 0 instructions: 1040000002 cycles: 437497483 heartbeat IPC: 2.30167 cumulative IPC: 2.29896 (Simulation time: 0 hr 22 min 38 sec) 
+Heartbeat CPU 0 instructions: 1050000000 cycles: 441841420 heartbeat IPC: 2.30206 cumulative IPC: 2.29899 (Simulation time: 0 hr 22 min 51 sec) 
+Heartbeat CPU 0 instructions: 1060000001 cycles: 446185231 heartbeat IPC: 2.30213 cumulative IPC: 2.29902 (Simulation time: 0 hr 23 min 4 sec) 
+Heartbeat CPU 0 instructions: 1070000000 cycles: 450528206 heartbeat IPC: 2.30257 cumulative IPC: 2.29906 (Simulation time: 0 hr 23 min 16 sec) 
+Heartbeat CPU 0 instructions: 1080000001 cycles: 454874414 heartbeat IPC: 2.30086 cumulative IPC: 2.29908 (Simulation time: 0 hr 23 min 29 sec) 
+Heartbeat CPU 0 instructions: 1090000003 cycles: 459220870 heartbeat IPC: 2.30073 cumulative IPC: 2.2991 (Simulation time: 0 hr 23 min 42 sec) 
+Heartbeat CPU 0 instructions: 1100000000 cycles: 463565655 heartbeat IPC: 2.30161 cumulative IPC: 2.29912 (Simulation time: 0 hr 23 min 55 sec) 
+Finished CPU 0 instructions: 1000000001 cycles: 434948934 cumulative IPC: 2.29912 (Simulation time: 0 hr 23 min 55 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 2.29912 instructions: 1000000001 cycles: 434948934
+L1D TOTAL     ACCESS:   56253428  HIT:   47353713  MISS:    8899715
+L1D LOAD      ACCESS:   56210023  HIT:   47316237  MISS:    8893786
+L1D RFO       ACCESS:      43405  HIT:      37476  MISS:       5929
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D AVERAGE MISS LATENCY: 23.1102 cycles
+L1I TOTAL     ACCESS:  155821664  HIT:  155821664  MISS:          0
+L1I LOAD      ACCESS:  155821664  HIT:  155821664  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: -nan cycles
+L2C TOTAL     ACCESS:    8914009  HIT:    6715721  MISS:    2198288
+L2C LOAD      ACCESS:    8893786  HIT:    6696292  MISS:    2197494
+L2C RFO       ACCESS:       5929  HIT:       5135  MISS:        794
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:      14294  HIT:      14294  MISS:          0
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C AVERAGE MISS LATENCY: 32.6926 cycles
+LLC TOTAL     ACCESS:    2202747  HIT:    2161981  MISS:      40766
+LLC LOAD      ACCESS:    2197492  HIT:    2157076  MISS:      40416
+LLC RFO       ACCESS:        794  HIT:        445  MISS:        349
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:       4461  HIT:       4460  MISS:          1
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC AVERAGE MISS LATENCY: 145.109 cycles
+Major fault: 0 Minor fault: 838
+==============================
+Perceptron RRIP Stats:
+   Num Updates: 2367714
+   Num Trains:  1952
+==============================
+perceptron #0: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #1: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #2: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #3: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #4: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #5: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #6: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #7: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #8: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #9: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #10: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #11: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #12: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #13: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #14: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #15: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #16: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #17: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #18: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #19: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #20: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #21: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #22: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #23: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #24: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #25: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #26: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #27: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #28: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #29: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #30: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #31: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #32: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #33: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #34: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #35: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #36: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #37: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #38: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #39: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #40: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #41: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #42: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #43: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #44: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #45: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #46: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #47: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #48: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #49: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #50: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #51: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #52: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #53: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #54: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #55: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #56: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #57: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #58: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #59: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #60: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #61: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #62: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #63: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #64: 1 1 -1 -1 -1 1 -1 1 -1 1 1 -1 1 1 1 -1 
+
+perceptron #65: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #66: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #67: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #68: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #69: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #70: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #71: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #72: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #73: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #74: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #75: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #76: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #77: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #78: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #79: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #80: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #81: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #82: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #83: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #84: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #85: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #86: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #87: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #88: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #89: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #90: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #91: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #92: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #93: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #94: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #95: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #96: 1 3 -1 -1 1 1 -1 1 -1 -1 3 -1 -1 -1 1 -3 
+
+perceptron #97: 1 3 -1 -1 1 1 -1 1 -1 -1 3 -1 -1 -1 1 -3 
+
+perceptron #98: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 2 -2 
+
+perceptron #99: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #100: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #101: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #102: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #103: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #104: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #105: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #106: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #107: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #108: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #109: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #110: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #111: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #112: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #113: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #114: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #115: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #116: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #117: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #118: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #119: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #120: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #121: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #122: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #123: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #124: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #125: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #126: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #127: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #128: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #129: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #130: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #131: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #132: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #133: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #134: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #135: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #136: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #137: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #138: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #139: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #140: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #141: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #142: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #143: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #144: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #145: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #146: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #147: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #148: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #149: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #150: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #151: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #152: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #153: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #154: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #155: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #156: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #157: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #158: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #159: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #160: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #161: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #162: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #163: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #164: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #165: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #166: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #167: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #168: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #169: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #170: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #171: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #172: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #173: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #174: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #175: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #176: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #177: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #178: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #179: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #180: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #181: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #182: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #183: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #184: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #185: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #186: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #187: 0 0 -2 -2 0 0 0 0 0 0 2 0 -2 0 2 0 
+
+perceptron #188: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #189: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #190: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #191: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #192: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #193: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #194: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #195: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #196: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #197: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #198: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #199: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #200: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #201: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #202: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #203: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #204: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #205: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #206: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #207: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #208: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #209: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #210: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #211: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #212: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #213: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #214: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #215: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #216: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #217: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #218: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #219: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #220: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #221: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #222: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #223: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #224: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #225: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #226: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #227: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #228: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #229: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #230: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #231: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #232: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #233: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #234: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #235: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #236: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #237: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #238: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #239: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #240: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #241: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #242: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #243: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #244: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #245: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #246: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #247: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #248: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #249: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #250: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #251: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #252: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #253: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #254: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #255: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #256: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #257: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #258: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #259: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #260: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #261: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #262: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+perceptron #263: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+perceptron #264: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+perceptron #265: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #266: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #267: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #268: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #269: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #270: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #271: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #272: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #273: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #274: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #275: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #276: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #277: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #278: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #279: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #280: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #281: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #282: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #283: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #284: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #285: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #286: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #287: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #288: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #289: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #290: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #291: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #292: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #293: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #294: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #295: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #296: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #297: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #298: 2 2 -2 -2 0 0 -2 0 -2 0 2 0 0 0 0 -2 
+
+perceptron #299: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #300: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #301: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #302: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #303: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #304: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #305: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #306: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #307: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #308: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #309: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #310: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #311: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #312: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 
+
+perceptron #313: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #314: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #315: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #316: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #317: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #318: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #319: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #320: 0 0 0 -2 0 0 -2 0 -2 0 2 -2 -4 -4 0 -2 
+
+perceptron #321: 0 0 0 -2 0 0 -2 0 -2 0 2 -2 -4 -4 0 -2 
+
+perceptron #322: 0 0 0 -2 0 0 -2 0 -2 0 2 -2 -4 -4 0 -2 
+
+perceptron #323: 0 0 0 -2 0 0 -2 0 -2 0 2 -2 -4 -4 0 -2 
+
+perceptron #324: 0 0 0 -2 0 0 -2 0 -2 0 2 -2 -4 -4 0 -2 
+
+perceptron #325: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #326: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #327: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #328: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #329: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #330: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #331: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #332: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #333: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #334: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #335: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #336: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #337: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #338: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #339: 1 1 -1 -1 -1 1 -1 1 -1 1 3 -1 -3 -3 -1 -1 
+
+perceptron #340: 1 1 1 -3 1 -1 -3 1 -1 -3 3 -1 -1 -1 1 -5 
+
+perceptron #341: 1 1 1 -3 1 -1 -3 1 -1 -3 3 -1 -1 -1 1 -5 
+
+perceptron #342: 1 1 1 -3 1 -1 -3 1 -1 -3 3 -1 -1 -1 1 -5 
+
+perceptron #343: -1 1 -1 -1 1 -1 -1 -1 -1 -3 3 1 -1 1 -1 -1 
+
+perceptron #344: -1 1 -1 -1 1 -1 -1 -1 -1 -3 3 1 -1 1 -1 -1 
+
+perceptron #345: -1 1 -1 -1 1 -1 -1 -1 -1 -3 3 1 -1 1 -1 -1 
+
+perceptron #346: 1 1 1 -3 1 -1 -3 1 -1 -3 3 -1 -1 -1 1 -5 
+
+perceptron #347: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #348: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #349: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #350: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #351: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #352: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #353: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #354: -1 1 -1 -1 1 -1 -1 -1 -1 -3 3 1 -1 1 -1 -1 
+
+perceptron #355: -1 1 -1 -1 1 -1 -1 -1 -1 -3 3 1 -1 1 -1 -1 
+
+perceptron #356: -1 1 -1 -1 1 -1 -1 -1 -1 -3 3 1 -1 1 -1 -1 
+
+perceptron #357: -1 1 -1 -1 1 -1 -1 -1 -1 -3 3 1 -1 1 -1 -1 
+
+perceptron #358: -1 1 -1 -1 1 -1 -1 -1 -1 -3 3 1 -1 1 -1 -1 
+
+perceptron #359: -1 1 -1 -1 1 -1 -1 -1 -1 -3 3 1 -1 1 -1 -1 
+
+perceptron #360: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #361: -1 1 -1 -1 1 -1 -1 -1 -1 -3 3 1 -1 1 -1 -1 
+
+perceptron #362: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #363: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #364: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #365: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #366: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #367: 1 -1 1 -3 1 -1 -1 1 1 -1 1 -1 -1 -3 1 -3 
+
+perceptron #368: 0 0 2 -2 0 0 -2 2 0 -2 2 -2 0 -2 2 -4 
+
+perceptron #369: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 0 -2 
+
+perceptron #370: 0 2 0 0 0 0 -2 0 -2 -2 2 0 0 0 0 -2 
+
+perceptron #371: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+perceptron #372: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+perceptron #373: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #374: 2 0 0 -4 2 -2 -2 0 0 -2 2 0 -2 -2 0 -4 
+
+perceptron #375: 2 0 0 -4 2 -2 -2 0 0 -2 2 0 -2 -2 0 -4 
+
+perceptron #376: 2 0 0 -4 2 -2 -2 0 0 -2 2 0 -2 -2 0 -4 
+
+perceptron #377: 2 0 0 -4 2 -2 -2 0 0 -2 2 0 -2 -2 0 -4 
+
+perceptron #378: 1 1 1 -3 1 -1 -3 1 -1 -3 3 -1 -1 -1 1 -5 
+
+perceptron #379: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #380: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #381: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #382: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #383: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #384: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #385: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #386: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #387: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #388: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #389: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #390: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #391: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #392: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #393: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #394: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #395: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #396: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #397: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #398: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #399: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #400: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #401: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #402: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #403: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #404: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #405: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #406: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #407: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #408: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #409: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #410: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #411: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #412: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #413: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #414: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #415: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #416: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #417: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #418: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #419: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #420: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #421: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #422: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #423: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #424: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #425: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #426: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #427: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #428: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #429: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #430: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #431: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #432: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #433: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #434: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #435: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #436: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #437: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #438: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #439: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #440: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #441: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #442: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #443: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #444: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #445: -1 -1 -1 -1 1 -1 1 -1 1 -1 1 -1 1 1 1 1 
+
+perceptron #446: -1 -1 -1 -1 1 -1 1 -1 1 -1 1 -1 1 1 1 1 
+
+perceptron #447: -1 -1 -1 -1 1 -1 1 -1 1 -1 1 -1 1 1 1 1 
+
+perceptron #448: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #449: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #450: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #451: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #452: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #453: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #454: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #455: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #456: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #457: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #458: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #459: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #460: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #461: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #462: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #463: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #464: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #465: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #466: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #467: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #468: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #469: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #470: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #471: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #472: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #473: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #474: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #475: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #476: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #477: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #478: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #479: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #480: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #481: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #482: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #483: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #484: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #485: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #486: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #487: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #488: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #489: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #490: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #491: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #492: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #493: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #494: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #495: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #496: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #497: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #498: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #499: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #500: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #501: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #502: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #503: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #504: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #505: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #506: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #507: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #508: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #509: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #510: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #511: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #512: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #513: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #514: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #515: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #516: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #517: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #518: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #519: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #520: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #521: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #522: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #523: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #524: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #525: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #526: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #527: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #528: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #529: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #530: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #531: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #532: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #533: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #534: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #535: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #536: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #537: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #538: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #539: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #540: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #541: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #542: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #543: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #544: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+perceptron #545: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+perceptron #546: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #547: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #548: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #549: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #550: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #551: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #552: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #553: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #554: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #555: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #556: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #557: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #558: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #559: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #560: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #561: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #562: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #563: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #564: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #565: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #566: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #567: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #568: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #569: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #570: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #571: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #572: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #573: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #574: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #575: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #576: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #577: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #578: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #579: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #580: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #581: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #582: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #583: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #584: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #585: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #586: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #587: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #588: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #589: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #590: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #591: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #592: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #593: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #594: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #595: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #596: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #597: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #598: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #599: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #600: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #601: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #602: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #603: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #604: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #605: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #606: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #607: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #608: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #609: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #610: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #611: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #612: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #613: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #614: 2 0 0 -4 2 -2 -2 0 0 -2 2 0 -2 -2 0 -4 
+
+perceptron #615: 2 0 0 -4 2 -2 -2 0 0 -2 2 0 -2 -2 0 -4 
+
+perceptron #616: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #617: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #618: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #619: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #620: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #621: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #622: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #623: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #624: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #625: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #626: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #627: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #628: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #629: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #630: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #631: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #632: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #633: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #634: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #635: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #636: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #637: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #638: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #639: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #640: -2 -2 0 0 0 0 2 0 2 0 0 0 0 0 0 2 
+
+perceptron #641: -2 -2 0 0 0 0 2 0 2 0 0 0 0 0 0 2 
+
+perceptron #642: -2 -2 0 0 0 0 2 0 2 0 0 0 0 0 0 2 
+
+perceptron #643: -2 -2 0 0 0 0 2 0 2 0 0 0 0 0 0 2 
+
+perceptron #644: -2 -2 0 0 0 0 2 0 2 0 0 0 0 0 0 2 
+
+perceptron #645: -2 -2 0 0 0 0 2 0 2 0 0 0 0 0 0 2 
+
+perceptron #646: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #647: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #648: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #649: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #650: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #651: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #652: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #653: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #654: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #655: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #656: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #657: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #658: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #659: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #660: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #661: 0 0 0 0 0 -2 -2 -2 -2 -2 2 0 -2 0 0 0 
+
+perceptron #662: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #663: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #664: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #665: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #666: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #667: -1 -1 -1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 -1 1 
+
+perceptron #668: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #669: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #670: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #671: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #672: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #673: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 1 -1 
+
+perceptron #674: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #675: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #676: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #677: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #678: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #679: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #680: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #681: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #682: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #683: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #684: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #685: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #686: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #687: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #688: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #689: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #690: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #691: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #692: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #693: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #694: 0 0 -2 -2 0 0 0 0 0 0 2 0 0 -2 2 0 
+
+perceptron #695: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #696: 1 1 -3 -3 1 -1 -1 -1 -1 -1 3 1 -1 -1 1 -1 
+
+perceptron #697: 1 1 -3 -3 1 -1 -1 -1 -1 -1 3 1 -1 -1 1 -1 
+
+perceptron #698: 1 1 -3 -3 1 -1 -1 -1 -1 -1 3 1 -1 -1 1 -1 
+
+perceptron #699: 1 1 -3 -3 1 -1 -1 -1 -1 -1 3 1 -1 -1 1 -1 
+
+perceptron #700: 1 1 -3 -3 1 -1 -1 -1 -1 -1 3 1 -1 -1 1 -1 
+
+perceptron #701: 1 1 -3 -3 1 -1 -1 -1 -1 -1 3 1 -1 -1 1 -1 
+
+perceptron #702: 1 1 -3 -3 1 -1 -1 -1 -1 -1 3 1 -1 -1 1 -1 
+
+perceptron #703: 1 1 -3 -3 1 -1 -1 -1 -1 -1 3 1 -1 -1 1 -1 
+
+perceptron #704: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #705: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #706: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #707: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #708: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #709: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #710: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #711: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #712: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #713: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #714: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #715: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #716: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #717: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #718: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #719: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #720: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #721: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #722: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #723: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #724: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #725: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #726: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #727: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #728: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #729: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #730: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #731: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #732: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #733: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #734: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #735: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #736: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #737: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #738: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #739: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #740: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #741: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #742: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #743: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #744: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #745: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #746: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #747: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #748: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #749: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #750: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #751: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #752: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #753: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #754: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #755: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #756: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #757: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #758: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #759: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #760: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #761: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #762: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #763: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #764: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #765: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #766: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #767: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 1 -1 -1 
+
+perceptron #768: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #769: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #770: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #771: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #772: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #773: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 -1 -1 
+
+perceptron #774: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #775: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #776: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #777: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #778: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #779: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #780: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #781: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #782: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #783: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #784: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #785: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #786: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #787: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #788: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #789: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #790: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #791: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #792: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #793: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #794: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #795: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #796: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #797: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #798: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #799: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #800: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #801: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #802: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #803: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #804: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #805: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+perceptron #806: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+perceptron #807: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #808: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #809: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #810: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #811: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #812: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #813: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #814: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #815: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #816: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #817: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #818: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #819: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #820: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #821: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #822: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #823: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #824: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #825: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #826: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #827: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #828: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #829: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #830: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #831: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 1 -1 
+
+perceptron #832: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #833: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #834: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #835: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #836: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #837: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #838: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #839: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #840: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #841: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #842: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #843: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #844: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #845: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #846: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #847: 0 0 0 -2 0 -2 -2 0 0 -4 6 0 -2 0 0 -2 
+
+perceptron #848: 1 1 -1 -1 1 1 -1 1 -1 -1 3 -3 -1 -1 -1 -3 
+
+perceptron #849: 1 1 -1 -1 1 1 -1 1 -1 -1 3 -3 -1 -1 -1 -3 
+
+perceptron #850: 1 1 -1 -1 1 1 -1 1 -1 -1 3 -3 -1 -1 -1 -3 
+
+perceptron #851: 0 0 0 0 0 0 -2 0 -2 -2 2 -2 0 0 2 -2 
+
+perceptron #852: 0 0 0 0 0 0 -2 0 -2 -2 2 -2 0 0 2 -2 
+
+perceptron #853: 0 0 0 0 0 0 -2 0 -2 -2 2 -2 0 0 2 -2 
+
+perceptron #854: 0 0 0 0 0 0 -2 0 -2 -2 2 -2 0 0 2 -2 
+
+perceptron #855: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #856: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #857: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #858: 0 0 0 0 0 0 -2 0 -2 -2 2 -2 0 0 2 -2 
+
+perceptron #859: 4 2 2 0 -2 0 -4 2 -2 0 2 0 -2 -2 0 -4 
+
+perceptron #860: 4 2 2 0 -2 0 -4 2 -2 0 2 0 -2 -2 0 -4 
+
+perceptron #861: 4 2 2 0 -2 0 -4 2 -2 0 2 0 -2 -2 0 -4 
+
+perceptron #862: 4 2 2 0 -2 0 -4 2 -2 0 2 0 -2 -2 0 -4 
+
+perceptron #863: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #864: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #865: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #866: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #867: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #868: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #869: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #870: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #871: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #872: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #873: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #874: 1 1 1 -1 -1 -1 -3 1 -1 -3 5 -1 -1 -1 1 -3 
+
+perceptron #875: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #876: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #877: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #878: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #879: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #880: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #881: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #882: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #883: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #884: 2 2 0 -2 0 0 -2 2 0 -2 4 0 0 0 0 -4 
+
+perceptron #885: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #886: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #887: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #888: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #889: 3 1 -1 -3 1 -1 -1 1 1 -1 3 1 -1 -1 -1 -3 
+
+perceptron #890: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #891: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #892: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #893: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #894: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #895: 1 1 1 -1 -1 1 -1 3 1 -1 3 -1 1 -1 1 -3 
+
+perceptron #896: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #897: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #898: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #899: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #900: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #901: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #902: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #903: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #904: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #905: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #906: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #907: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #908: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #909: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #910: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #911: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #912: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #913: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #914: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #915: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #916: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #917: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #918: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #919: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #920: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #921: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #922: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #923: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #924: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #925: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #926: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #927: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #928: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #929: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #930: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #931: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #932: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #933: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #934: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #935: 0 0 -2 -2 2 -2 0 -2 0 -2 2 0 0 0 0 0 
+
+perceptron #936: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #937: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #938: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #939: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #940: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #941: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #942: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #943: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #944: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #945: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #946: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #947: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #948: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #949: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #950: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #951: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #952: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #953: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #954: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #955: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #956: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #957: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #958: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #959: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+perceptron #960: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #961: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #962: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #963: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #964: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #965: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #966: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #967: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #968: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #969: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #970: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #971: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #972: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #973: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #974: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #975: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #976: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #977: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #978: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #979: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #980: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #981: 4 0 -2 -2 2 0 -2 2 0 0 2 2 0 -2 0 -4 
+
+perceptron #982: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #983: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #984: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #985: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #986: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #987: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #988: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #989: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #990: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #991: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #992: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #993: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #994: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #995: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #996: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #997: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #998: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #999: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1000: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1001: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1002: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1003: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1004: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1005: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1006: 1 1 -1 -1 -1 1 -1 1 -1 1 1 1 -1 -1 1 -1 
+
+perceptron #1007: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1008: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1009: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1010: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1011: 3 1 -3 -1 3 1 -1 1 -1 1 1 1 -1 -1 1 -3 
+
+perceptron #1012: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #1013: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #1014: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #1015: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #1016: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #1017: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #1018: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #1019: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #1020: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #1021: 2 2 -2 -2 2 0 0 0 0 0 2 0 -2 0 0 -2 
+
+perceptron #1022: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+perceptron #1023: 1 1 -1 -1 1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:      10553  ROW_BUFFER_MISS:      30212
+ DBUS_CONGESTED:          2
+ WQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:        128  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 5
+
+CPU 0 Branch Prediction Accuracy: 99.6978% MPKI: 0.312803 Average ROB Occupancy at Mispredict: 135.497
+
+Branch types
+NOT_BRANCH: 896497959 89.6498%
+BRANCH_DIRECT_JUMP: 5582 0.0005582%
+BRANCH_INDIRECT: 0 0%
+BRANCH_CONDITIONAL: 103496181 10.3496%
+BRANCH_DIRECT_CALL: 0 0%
+BRANCH_INDIRECT_CALL: 0 0%
+BRANCH_RETURN: 0 0%
+BRANCH_OTHER: 0 0%
+

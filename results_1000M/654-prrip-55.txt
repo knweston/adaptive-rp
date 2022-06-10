@@ -1,0 +1,715 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 100000000
+Simulation Instructions: 1000000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs /scratch/user/kevin.weston/dpc3-traces/654.champsimtrace.xz
+CPU 0 Bimodal branch predictor
+Per-line RRPV Initialized
+PRRIP State Initialized
+Assign SAMPLER_SET[0]: 454  LLC: 2048
+SAMPLER_SET[0]: 454
+Assign SAMPLER_SET[1]: 1662  LLC: 2048
+SAMPLER_SET[1]: 1662
+Assign SAMPLER_SET[2]: 1921  LLC: 2048
+SAMPLER_SET[2]: 1921
+Assign SAMPLER_SET[3]: 1131  LLC: 2048
+SAMPLER_SET[3]: 1131
+Assign SAMPLER_SET[4]: 331  LLC: 2048
+SAMPLER_SET[4]: 331
+Assign SAMPLER_SET[5]: 1531  LLC: 2048
+SAMPLER_SET[5]: 1531
+Assign SAMPLER_SET[6]: 482  LLC: 2048
+SAMPLER_SET[6]: 482
+Assign SAMPLER_SET[7]: 1275  LLC: 2048
+SAMPLER_SET[7]: 1275
+Assign SAMPLER_SET[8]: 1876  LLC: 2048
+SAMPLER_SET[8]: 1876
+Assign SAMPLER_SET[9]: 2038  LLC: 2048
+SAMPLER_SET[9]: 2038
+Assign SAMPLER_SET[10]: 701  LLC: 2048
+SAMPLER_SET[10]: 701
+Assign SAMPLER_SET[11]: 479  LLC: 2048
+SAMPLER_SET[11]: 479
+Assign SAMPLER_SET[12]: 892  LLC: 2048
+SAMPLER_SET[12]: 892
+Assign SAMPLER_SET[13]: 1820  LLC: 2048
+SAMPLER_SET[13]: 1820
+Assign SAMPLER_SET[14]: 1505  LLC: 2048
+SAMPLER_SET[14]: 1505
+Assign SAMPLER_SET[15]: 1159  LLC: 2048
+SAMPLER_SET[15]: 1159
+Assign SAMPLER_SET[16]: 513  LLC: 2048
+SAMPLER_SET[16]: 513
+Assign SAMPLER_SET[17]: 703  LLC: 2048
+SAMPLER_SET[17]: 703
+Assign SAMPLER_SET[18]: 561  LLC: 2048
+SAMPLER_SET[18]: 561
+Assign SAMPLER_SET[19]: 990  LLC: 2048
+SAMPLER_SET[19]: 990
+Assign SAMPLER_SET[20]: 342  LLC: 2048
+SAMPLER_SET[20]: 342
+Assign SAMPLER_SET[21]: 882  LLC: 2048
+SAMPLER_SET[21]: 882
+Assign SAMPLER_SET[22]: 15  LLC: 2048
+SAMPLER_SET[22]: 15
+Assign SAMPLER_SET[23]: 71  LLC: 2048
+SAMPLER_SET[23]: 71
+Assign SAMPLER_SET[24]: 1127  LLC: 2048
+SAMPLER_SET[24]: 1127
+Assign SAMPLER_SET[25]: 1382  LLC: 2048
+SAMPLER_SET[25]: 1382
+Assign SAMPLER_SET[26]: 647  LLC: 2048
+SAMPLER_SET[26]: 647
+Assign SAMPLER_SET[27]: 857  LLC: 2048
+SAMPLER_SET[27]: 857
+Assign SAMPLER_SET[28]: 1450  LLC: 2048
+SAMPLER_SET[28]: 1450
+Assign SAMPLER_SET[29]: 1160  LLC: 2048
+SAMPLER_SET[29]: 1160
+Assign SAMPLER_SET[30]: 1852  LLC: 2048
+SAMPLER_SET[30]: 1852
+Assign SAMPLER_SET[31]: 1881  LLC: 2048
+SAMPLER_SET[31]: 1881
+Assign SAMPLER_SET[32]: 1770  LLC: 2048
+SAMPLER_SET[32]: 1770
+Assign SAMPLER_SET[33]: 1622  LLC: 2048
+SAMPLER_SET[33]: 1622
+Assign SAMPLER_SET[34]: 275  LLC: 2048
+SAMPLER_SET[34]: 275
+Assign SAMPLER_SET[35]: 635  LLC: 2048
+SAMPLER_SET[35]: 635
+Assign SAMPLER_SET[36]: 466  LLC: 2048
+SAMPLER_SET[36]: 466
+Assign SAMPLER_SET[37]: 1413  LLC: 2048
+SAMPLER_SET[37]: 1413
+Assign SAMPLER_SET[38]: 417  LLC: 2048
+SAMPLER_SET[38]: 417
+Assign SAMPLER_SET[39]: 472  LLC: 2048
+SAMPLER_SET[39]: 472
+Assign SAMPLER_SET[40]: 1340  LLC: 2048
+SAMPLER_SET[40]: 1340
+Assign SAMPLER_SET[41]: 852  LLC: 2048
+SAMPLER_SET[41]: 852
+Assign SAMPLER_SET[42]: 1365  LLC: 2048
+SAMPLER_SET[42]: 1365
+Assign SAMPLER_SET[43]: 47  LLC: 2048
+SAMPLER_SET[43]: 47
+Assign SAMPLER_SET[44]: 823  LLC: 2048
+SAMPLER_SET[44]: 823
+Assign SAMPLER_SET[45]: 686  LLC: 2048
+SAMPLER_SET[45]: 686
+Assign SAMPLER_SET[46]: 1637  LLC: 2048
+SAMPLER_SET[46]: 1637
+Assign SAMPLER_SET[47]: 1115  LLC: 2048
+SAMPLER_SET[47]: 1115
+Assign SAMPLER_SET[48]: 986  LLC: 2048
+SAMPLER_SET[48]: 986
+Assign SAMPLER_SET[49]: 258  LLC: 2048
+SAMPLER_SET[49]: 258
+Assign SAMPLER_SET[50]: 633  LLC: 2048
+SAMPLER_SET[50]: 633
+Assign SAMPLER_SET[51]: 920  LLC: 2048
+SAMPLER_SET[51]: 920
+Assign SAMPLER_SET[52]: 204  LLC: 2048
+SAMPLER_SET[52]: 204
+Assign SAMPLER_SET[53]: 227  LLC: 2048
+SAMPLER_SET[53]: 227
+Assign SAMPLER_SET[54]: 1818  LLC: 2048
+SAMPLER_SET[54]: 1818
+Assign SAMPLER_SET[55]: 886  LLC: 2048
+SAMPLER_SET[55]: 886
+Assign SAMPLER_SET[56]: 1422  LLC: 2048
+SAMPLER_SET[56]: 1422
+Assign SAMPLER_SET[57]: 607  LLC: 2048
+SAMPLER_SET[57]: 607
+Assign SAMPLER_SET[58]: 217  LLC: 2048
+SAMPLER_SET[58]: 217
+Assign SAMPLER_SET[59]: 1945  LLC: 2048
+SAMPLER_SET[59]: 1945
+Assign SAMPLER_SET[60]: 143  LLC: 2048
+SAMPLER_SET[60]: 143
+Assign SAMPLER_SET[61]: 1311  LLC: 2048
+SAMPLER_SET[61]: 1311
+Assign SAMPLER_SET[62]: 319  LLC: 2048
+SAMPLER_SET[62]: 319
+Assign SAMPLER_SET[63]: 1846  LLC: 2048
+SAMPLER_SET[63]: 1846
+Assign SAMPLER_SET[64]: 238  LLC: 2048
+SAMPLER_SET[64]: 238
+Assign SAMPLER_SET[65]: 67  LLC: 2048
+SAMPLER_SET[65]: 67
+Assign SAMPLER_SET[66]: 1912  LLC: 2048
+SAMPLER_SET[66]: 1912
+Assign SAMPLER_SET[67]: 1613  LLC: 2048
+SAMPLER_SET[67]: 1613
+Assign SAMPLER_SET[68]: 1293  LLC: 2048
+SAMPLER_SET[68]: 1293
+Assign SAMPLER_SET[69]: 1018  LLC: 2048
+SAMPLER_SET[69]: 1018
+Assign SAMPLER_SET[70]: 1982  LLC: 2048
+SAMPLER_SET[70]: 1982
+Assign SAMPLER_SET[71]: 1702  LLC: 2048
+SAMPLER_SET[71]: 1702
+Assign SAMPLER_SET[72]: 1498  LLC: 2048
+SAMPLER_SET[72]: 1498
+Assign SAMPLER_SET[73]: 228  LLC: 2048
+SAMPLER_SET[73]: 228
+Assign SAMPLER_SET[74]: 1414  LLC: 2048
+SAMPLER_SET[74]: 1414
+Assign SAMPLER_SET[75]: 1166  LLC: 2048
+SAMPLER_SET[75]: 1166
+Assign SAMPLER_SET[76]: 732  LLC: 2048
+SAMPLER_SET[76]: 732
+Assign SAMPLER_SET[77]: 297  LLC: 2048
+SAMPLER_SET[77]: 297
+Assign SAMPLER_SET[78]: 1133  LLC: 2048
+SAMPLER_SET[78]: 1133
+Assign SAMPLER_SET[79]: 846  LLC: 2048
+SAMPLER_SET[79]: 846
+Assign SAMPLER_SET[80]: 767  LLC: 2048
+SAMPLER_SET[80]: 767
+Assign SAMPLER_SET[81]: 1878  LLC: 2048
+SAMPLER_SET[81]: 1878
+Assign SAMPLER_SET[82]: 993  LLC: 2048
+SAMPLER_SET[82]: 993
+Assign SAMPLER_SET[83]: 1392  LLC: 2048
+SAMPLER_SET[83]: 1392
+Assign SAMPLER_SET[84]: 1568  LLC: 2048
+SAMPLER_SET[84]: 1568
+Assign SAMPLER_SET[85]: 1787  LLC: 2048
+SAMPLER_SET[85]: 1787
+Assign SAMPLER_SET[86]: 399  LLC: 2048
+SAMPLER_SET[86]: 399
+Assign SAMPLER_SET[87]: 1201  LLC: 2048
+SAMPLER_SET[87]: 1201
+Assign SAMPLER_SET[88]: 856  LLC: 2048
+SAMPLER_SET[88]: 856
+Assign SAMPLER_SET[89]: 773  LLC: 2048
+SAMPLER_SET[89]: 773
+Assign SAMPLER_SET[90]: 1680  LLC: 2048
+SAMPLER_SET[90]: 1680
+Assign SAMPLER_SET[91]: 1477  LLC: 2048
+SAMPLER_SET[91]: 1477
+Assign SAMPLER_SET[92]: 9  LLC: 2048
+SAMPLER_SET[92]: 9
+Assign SAMPLER_SET[93]: 1500  LLC: 2048
+SAMPLER_SET[93]: 1500
+Assign SAMPLER_SET[94]: 851  LLC: 2048
+SAMPLER_SET[94]: 851
+Assign SAMPLER_SET[95]: 973  LLC: 2048
+SAMPLER_SET[95]: 973
+Assign SAMPLER_SET[96]: 938  LLC: 2048
+SAMPLER_SET[96]: 938
+Assign SAMPLER_SET[97]: 1851  LLC: 2048
+SAMPLER_SET[97]: 1851
+Assign SAMPLER_SET[98]: 1608  LLC: 2048
+SAMPLER_SET[98]: 1608
+Assign SAMPLER_SET[99]: 1945  LLC: 2048
+Assign SAMPLER_SET[99]: 1106  LLC: 2048
+SAMPLER_SET[99]: 1106
+Assign SAMPLER_SET[100]: 979  LLC: 2048
+SAMPLER_SET[100]: 979
+Assign SAMPLER_SET[101]: 338  LLC: 2048
+SAMPLER_SET[101]: 338
+Assign SAMPLER_SET[102]: 1693  LLC: 2048
+SAMPLER_SET[102]: 1693
+Assign SAMPLER_SET[103]: 6  LLC: 2048
+SAMPLER_SET[103]: 6
+Assign SAMPLER_SET[104]: 671  LLC: 2048
+SAMPLER_SET[104]: 671
+Assign SAMPLER_SET[105]: 490  LLC: 2048
+SAMPLER_SET[105]: 490
+Assign SAMPLER_SET[106]: 1461  LLC: 2048
+SAMPLER_SET[106]: 1461
+Assign SAMPLER_SET[107]: 1730  LLC: 2048
+SAMPLER_SET[107]: 1730
+Assign SAMPLER_SET[108]: 1030  LLC: 2048
+SAMPLER_SET[108]: 1030
+Assign SAMPLER_SET[109]: 19  LLC: 2048
+SAMPLER_SET[109]: 19
+Assign SAMPLER_SET[110]: 920  LLC: 2048
+Assign SAMPLER_SET[110]: 329  LLC: 2048
+SAMPLER_SET[110]: 329
+Assign SAMPLER_SET[111]: 1714  LLC: 2048
+SAMPLER_SET[111]: 1714
+Assign SAMPLER_SET[112]: 1  LLC: 2048
+SAMPLER_SET[112]: 1
+Assign SAMPLER_SET[113]: 1822  LLC: 2048
+SAMPLER_SET[113]: 1822
+Assign SAMPLER_SET[114]: 172  LLC: 2048
+SAMPLER_SET[114]: 172
+Assign SAMPLER_SET[115]: 1586  LLC: 2048
+SAMPLER_SET[115]: 1586
+Assign SAMPLER_SET[116]: 648  LLC: 2048
+SAMPLER_SET[116]: 648
+Assign SAMPLER_SET[117]: 1329  LLC: 2048
+SAMPLER_SET[117]: 1329
+Assign SAMPLER_SET[118]: 668  LLC: 2048
+SAMPLER_SET[118]: 668
+Assign SAMPLER_SET[119]: 1874  LLC: 2048
+SAMPLER_SET[119]: 1874
+Assign SAMPLER_SET[120]: 70  LLC: 2048
+SAMPLER_SET[120]: 70
+Assign SAMPLER_SET[121]: 661  LLC: 2048
+SAMPLER_SET[121]: 661
+Assign SAMPLER_SET[122]: 1649  LLC: 2048
+SAMPLER_SET[122]: 1649
+Assign SAMPLER_SET[123]: 1590  LLC: 2048
+SAMPLER_SET[123]: 1590
+Assign SAMPLER_SET[124]: 911  LLC: 2048
+SAMPLER_SET[124]: 911
+Assign SAMPLER_SET[125]: 1367  LLC: 2048
+SAMPLER_SET[125]: 1367
+Assign SAMPLER_SET[126]: 1782  LLC: 2048
+SAMPLER_SET[126]: 1782
+Assign SAMPLER_SET[127]: 569  LLC: 2048
+SAMPLER_SET[127]: 569
+Assign SAMPLER_SET[128]: 1309  LLC: 2048
+SAMPLER_SET[128]: 1309
+Assign SAMPLER_SET[129]: 534  LLC: 2048
+SAMPLER_SET[129]: 534
+Assign SAMPLER_SET[130]: 1274  LLC: 2048
+SAMPLER_SET[130]: 1274
+Assign SAMPLER_SET[131]: 904  LLC: 2048
+SAMPLER_SET[131]: 904
+Assign SAMPLER_SET[132]: 1908  LLC: 2048
+SAMPLER_SET[132]: 1908
+Assign SAMPLER_SET[133]: 245  LLC: 2048
+SAMPLER_SET[133]: 245
+Assign SAMPLER_SET[134]: 1688  LLC: 2048
+SAMPLER_SET[134]: 1688
+Assign SAMPLER_SET[135]: 1660  LLC: 2048
+SAMPLER_SET[135]: 1660
+Assign SAMPLER_SET[136]: 1303  LLC: 2048
+SAMPLER_SET[136]: 1303
+Assign SAMPLER_SET[137]: 1628  LLC: 2048
+SAMPLER_SET[137]: 1628
+Assign SAMPLER_SET[138]: 1857  LLC: 2048
+SAMPLER_SET[138]: 1857
+Assign SAMPLER_SET[139]: 187  LLC: 2048
+SAMPLER_SET[139]: 187
+Assign SAMPLER_SET[140]: 1389  LLC: 2048
+SAMPLER_SET[140]: 1389
+Assign SAMPLER_SET[141]: 881  LLC: 2048
+SAMPLER_SET[141]: 881
+Assign SAMPLER_SET[142]: 1166  LLC: 2048
+Assign SAMPLER_SET[142]: 1039  LLC: 2048
+SAMPLER_SET[142]: 1039
+Assign SAMPLER_SET[143]: 1136  LLC: 2048
+SAMPLER_SET[143]: 1136
+Assign SAMPLER_SET[144]: 601  LLC: 2048
+SAMPLER_SET[144]: 601
+Assign SAMPLER_SET[145]: 967  LLC: 2048
+SAMPLER_SET[145]: 967
+Assign SAMPLER_SET[146]: 769  LLC: 2048
+SAMPLER_SET[146]: 769
+Assign SAMPLER_SET[147]: 283  LLC: 2048
+SAMPLER_SET[147]: 283
+Assign SAMPLER_SET[148]: 559  LLC: 2048
+SAMPLER_SET[148]: 559
+Assign SAMPLER_SET[149]: 1075  LLC: 2048
+SAMPLER_SET[149]: 1075
+Assign SAMPLER_SET[150]: 829  LLC: 2048
+SAMPLER_SET[150]: 829
+Assign SAMPLER_SET[151]: 1681  LLC: 2048
+SAMPLER_SET[151]: 1681
+Assign SAMPLER_SET[152]: 1728  LLC: 2048
+SAMPLER_SET[152]: 1728
+Assign SAMPLER_SET[153]: 541  LLC: 2048
+SAMPLER_SET[153]: 541
+Assign SAMPLER_SET[154]: 421  LLC: 2048
+SAMPLER_SET[154]: 421
+Assign SAMPLER_SET[155]: 1037  LLC: 2048
+SAMPLER_SET[155]: 1037
+Assign SAMPLER_SET[156]: 13  LLC: 2048
+SAMPLER_SET[156]: 13
+Assign SAMPLER_SET[157]: 1707  LLC: 2048
+SAMPLER_SET[157]: 1707
+Assign SAMPLER_SET[158]: 1075  LLC: 2048
+Assign SAMPLER_SET[158]: 1933  LLC: 2048
+SAMPLER_SET[158]: 1933
+Assign SAMPLER_SET[159]: 1406  LLC: 2048
+SAMPLER_SET[159]: 1406
+Assign SAMPLER_SET[160]: 94  LLC: 2048
+SAMPLER_SET[160]: 94
+Assign SAMPLER_SET[161]: 1423  LLC: 2048
+SAMPLER_SET[161]: 1423
+Assign SAMPLER_SET[162]: 1854  LLC: 2048
+SAMPLER_SET[162]: 1854
+Assign SAMPLER_SET[163]: 230  LLC: 2048
+SAMPLER_SET[163]: 230
+Assign SAMPLER_SET[164]: 104  LLC: 2048
+SAMPLER_SET[164]: 104
+Assign SAMPLER_SET[165]: 1652  LLC: 2048
+SAMPLER_SET[165]: 1652
+Assign SAMPLER_SET[166]: 1446  LLC: 2048
+SAMPLER_SET[166]: 1446
+Assign SAMPLER_SET[167]: 1338  LLC: 2048
+SAMPLER_SET[167]: 1338
+Assign SAMPLER_SET[168]: 177  LLC: 2048
+SAMPLER_SET[168]: 177
+Assign SAMPLER_SET[169]: 195  LLC: 2048
+SAMPLER_SET[169]: 195
+Assign SAMPLER_SET[170]: 1171  LLC: 2048
+SAMPLER_SET[170]: 1171
+Assign SAMPLER_SET[171]: 1297  LLC: 2048
+SAMPLER_SET[171]: 1297
+Assign SAMPLER_SET[172]: 1704  LLC: 2048
+SAMPLER_SET[172]: 1704
+Assign SAMPLER_SET[173]: 100  LLC: 2048
+SAMPLER_SET[173]: 100
+Assign SAMPLER_SET[174]: 711  LLC: 2048
+SAMPLER_SET[174]: 711
+Assign SAMPLER_SET[175]: 1243  LLC: 2048
+SAMPLER_SET[175]: 1243
+Assign SAMPLER_SET[176]: 1738  LLC: 2048
+SAMPLER_SET[176]: 1738
+Assign SAMPLER_SET[177]: 1504  LLC: 2048
+SAMPLER_SET[177]: 1504
+Assign SAMPLER_SET[178]: 96  LLC: 2048
+SAMPLER_SET[178]: 96
+Assign SAMPLER_SET[179]: 1249  LLC: 2048
+SAMPLER_SET[179]: 1249
+Assign SAMPLER_SET[180]: 1267  LLC: 2048
+SAMPLER_SET[180]: 1267
+Assign SAMPLER_SET[181]: 1727  LLC: 2048
+SAMPLER_SET[181]: 1727
+Assign SAMPLER_SET[182]: 1545  LLC: 2048
+SAMPLER_SET[182]: 1545
+Assign SAMPLER_SET[183]: 1792  LLC: 2048
+SAMPLER_SET[183]: 1792
+Assign SAMPLER_SET[184]: 1383  LLC: 2048
+SAMPLER_SET[184]: 1383
+Assign SAMPLER_SET[185]: 1954  LLC: 2048
+SAMPLER_SET[185]: 1954
+Assign SAMPLER_SET[186]: 739  LLC: 2048
+SAMPLER_SET[186]: 739
+Assign SAMPLER_SET[187]: 1061  LLC: 2048
+SAMPLER_SET[187]: 1061
+Assign SAMPLER_SET[188]: 672  LLC: 2048
+SAMPLER_SET[188]: 672
+Assign SAMPLER_SET[189]: 1057  LLC: 2048
+SAMPLER_SET[189]: 1057
+Assign SAMPLER_SET[190]: 1329  LLC: 2048
+Assign SAMPLER_SET[190]: 1415  LLC: 2048
+SAMPLER_SET[190]: 1415
+Assign SAMPLER_SET[191]: 981  LLC: 2048
+SAMPLER_SET[191]: 981
+Assign SAMPLER_SET[192]: 98  LLC: 2048
+SAMPLER_SET[192]: 98
+Assign SAMPLER_SET[193]: 453  LLC: 2048
+SAMPLER_SET[193]: 453
+Assign SAMPLER_SET[194]: 1448  LLC: 2048
+SAMPLER_SET[194]: 1448
+Assign SAMPLER_SET[195]: 79  LLC: 2048
+SAMPLER_SET[195]: 79
+Assign SAMPLER_SET[196]: 126  LLC: 2048
+SAMPLER_SET[196]: 126
+Assign SAMPLER_SET[197]: 1582  LLC: 2048
+SAMPLER_SET[197]: 1582
+Assign SAMPLER_SET[198]: 1289  LLC: 2048
+SAMPLER_SET[198]: 1289
+Assign SAMPLER_SET[199]: 875  LLC: 2048
+SAMPLER_SET[199]: 875
+Assign SAMPLER_SET[200]: 404  LLC: 2048
+SAMPLER_SET[200]: 404
+Assign SAMPLER_SET[201]: 415  LLC: 2048
+SAMPLER_SET[201]: 415
+Assign SAMPLER_SET[202]: 1712  LLC: 2048
+SAMPLER_SET[202]: 1712
+Assign SAMPLER_SET[203]: 1389  LLC: 2048
+Assign SAMPLER_SET[203]: 169  LLC: 2048
+SAMPLER_SET[203]: 169
+Assign SAMPLER_SET[204]: 158  LLC: 2048
+SAMPLER_SET[204]: 158
+Assign SAMPLER_SET[205]: 90  LLC: 2048
+SAMPLER_SET[205]: 90
+Assign SAMPLER_SET[206]: 1291  LLC: 2048
+SAMPLER_SET[206]: 1291
+Assign SAMPLER_SET[207]: 838  LLC: 2048
+SAMPLER_SET[207]: 838
+Assign SAMPLER_SET[208]: 1904  LLC: 2048
+SAMPLER_SET[208]: 1904
+Assign SAMPLER_SET[209]: 640  LLC: 2048
+SAMPLER_SET[209]: 640
+Assign SAMPLER_SET[210]: 1462  LLC: 2048
+SAMPLER_SET[210]: 1462
+Assign SAMPLER_SET[211]: 1487  LLC: 2048
+SAMPLER_SET[211]: 1487
+Assign SAMPLER_SET[212]: 1863  LLC: 2048
+SAMPLER_SET[212]: 1863
+Assign SAMPLER_SET[213]: 1036  LLC: 2048
+SAMPLER_SET[213]: 1036
+Assign SAMPLER_SET[214]: 1702  LLC: 2048
+Assign SAMPLER_SET[214]: 933  LLC: 2048
+SAMPLER_SET[214]: 933
+Assign SAMPLER_SET[215]: 554  LLC: 2048
+SAMPLER_SET[215]: 554
+Assign SAMPLER_SET[216]: 1496  LLC: 2048
+SAMPLER_SET[216]: 1496
+Assign SAMPLER_SET[217]: 1708  LLC: 2048
+SAMPLER_SET[217]: 1708
+Assign SAMPLER_SET[218]: 1275  LLC: 2048
+Assign SAMPLER_SET[218]: 416  LLC: 2048
+SAMPLER_SET[218]: 416
+Assign SAMPLER_SET[219]: 491  LLC: 2048
+SAMPLER_SET[219]: 491
+Assign SAMPLER_SET[220]: 183  LLC: 2048
+SAMPLER_SET[220]: 183
+Assign SAMPLER_SET[221]: 1657  LLC: 2048
+SAMPLER_SET[221]: 1657
+Assign SAMPLER_SET[222]: 1060  LLC: 2048
+SAMPLER_SET[222]: 1060
+Assign SAMPLER_SET[223]: 626  LLC: 2048
+SAMPLER_SET[223]: 626
+Assign SAMPLER_SET[224]: 1315  LLC: 2048
+SAMPLER_SET[224]: 1315
+Assign SAMPLER_SET[225]: 1682  LLC: 2048
+SAMPLER_SET[225]: 1682
+Assign SAMPLER_SET[226]: 1352  LLC: 2048
+SAMPLER_SET[226]: 1352
+Assign SAMPLER_SET[227]: 1152  LLC: 2048
+SAMPLER_SET[227]: 1152
+Assign SAMPLER_SET[228]: 965  LLC: 2048
+SAMPLER_SET[228]: 965
+Assign SAMPLER_SET[229]: 1190  LLC: 2048
+SAMPLER_SET[229]: 1190
+Assign SAMPLER_SET[230]: 1191  LLC: 2048
+SAMPLER_SET[230]: 1191
+Assign SAMPLER_SET[231]: 645  LLC: 2048
+SAMPLER_SET[231]: 645
+Assign SAMPLER_SET[232]: 695  LLC: 2048
+SAMPLER_SET[232]: 695
+Assign SAMPLER_SET[233]: 1495  LLC: 2048
+SAMPLER_SET[233]: 1495
+Assign SAMPLER_SET[234]: 1932  LLC: 2048
+SAMPLER_SET[234]: 1932
+Assign SAMPLER_SET[235]: 656  LLC: 2048
+SAMPLER_SET[235]: 656
+Assign SAMPLER_SET[236]: 1508  LLC: 2048
+SAMPLER_SET[236]: 1508
+Assign SAMPLER_SET[237]: 939  LLC: 2048
+SAMPLER_SET[237]: 939
+Assign SAMPLER_SET[238]: 355  LLC: 2048
+SAMPLER_SET[238]: 355
+Assign SAMPLER_SET[239]: 1092  LLC: 2048
+SAMPLER_SET[239]: 1092
+Assign SAMPLER_SET[240]: 850  LLC: 2048
+SAMPLER_SET[240]: 850
+Assign SAMPLER_SET[241]: 102  LLC: 2048
+SAMPLER_SET[241]: 102
+Assign SAMPLER_SET[242]: 1763  LLC: 2048
+SAMPLER_SET[242]: 1763
+Assign SAMPLER_SET[243]: 668  LLC: 2048
+Assign SAMPLER_SET[243]: 51  LLC: 2048
+SAMPLER_SET[243]: 51
+Assign SAMPLER_SET[244]: 1317  LLC: 2048
+SAMPLER_SET[244]: 1317
+Assign SAMPLER_SET[245]: 2041  LLC: 2048
+SAMPLER_SET[245]: 2041
+Assign SAMPLER_SET[246]: 1374  LLC: 2048
+SAMPLER_SET[246]: 1374
+Assign SAMPLER_SET[247]: 682  LLC: 2048
+SAMPLER_SET[247]: 682
+Assign SAMPLER_SET[248]: 1466  LLC: 2048
+SAMPLER_SET[248]: 1466
+Assign SAMPLER_SET[249]: 1139  LLC: 2048
+SAMPLER_SET[249]: 1139
+Assign SAMPLER_SET[250]: 1632  LLC: 2048
+SAMPLER_SET[250]: 1632
+Assign SAMPLER_SET[251]: 1117  LLC: 2048
+SAMPLER_SET[251]: 1117
+Assign SAMPLER_SET[252]: 1611  LLC: 2048
+SAMPLER_SET[252]: 1611
+Assign SAMPLER_SET[253]: 1905  LLC: 2048
+SAMPLER_SET[253]: 1905
+Assign SAMPLER_SET[254]: 1662  LLC: 2048
+Assign SAMPLER_SET[254]: 446  LLC: 2048
+SAMPLER_SET[254]: 446
+Assign SAMPLER_SET[255]: 1705  LLC: 2048
+SAMPLER_SET[255]: 1705
+Heartbeat CPU 0 instructions: 10000000 cycles: 2987068 heartbeat IPC: 3.34776 cumulative IPC: 3.34776 (Simulation time: 0 hr 0 min 20 sec) 
+Heartbeat CPU 0 instructions: 20000003 cycles: 6017318 heartbeat IPC: 3.30006 cumulative IPC: 3.32374 (Simulation time: 0 hr 0 min 40 sec) 
+Heartbeat CPU 0 instructions: 30000000 cycles: 8981688 heartbeat IPC: 3.3734 cumulative IPC: 3.34013 (Simulation time: 0 hr 1 min 0 sec) 
+Heartbeat CPU 0 instructions: 40000000 cycles: 12020272 heartbeat IPC: 3.29101 cumulative IPC: 3.32771 (Simulation time: 0 hr 1 min 20 sec) 
+Heartbeat CPU 0 instructions: 50000003 cycles: 15223917 heartbeat IPC: 3.12145 cumulative IPC: 3.28431 (Simulation time: 0 hr 1 min 41 sec) 
+Heartbeat CPU 0 instructions: 60000000 cycles: 18233007 heartbeat IPC: 3.32326 cumulative IPC: 3.29074 (Simulation time: 0 hr 2 min 1 sec) 
+Heartbeat CPU 0 instructions: 70000001 cycles: 21221320 heartbeat IPC: 3.34637 cumulative IPC: 3.29857 (Simulation time: 0 hr 2 min 21 sec) 
+Heartbeat CPU 0 instructions: 80000001 cycles: 24228330 heartbeat IPC: 3.32556 cumulative IPC: 3.30192 (Simulation time: 0 hr 2 min 41 sec) 
+Heartbeat CPU 0 instructions: 90000000 cycles: 27260243 heartbeat IPC: 3.29825 cumulative IPC: 3.30151 (Simulation time: 0 hr 3 min 1 sec) 
+Heartbeat CPU 0 instructions: 100000001 cycles: 30210390 heartbeat IPC: 3.38966 cumulative IPC: 3.31012 (Simulation time: 0 hr 3 min 21 sec) 
+
+Warmup complete CPU 0 instructions: 100000001 cycles: 30210390 (Simulation time: 0 hr 3 min 21 sec) 
+
+Heartbeat CPU 0 instructions: 110000000 cycles: 39493641 heartbeat IPC: 1.07721 cumulative IPC: 1.07721 (Simulation time: 0 hr 3 min 34 sec) 
+Heartbeat CPU 0 instructions: 120000003 cycles: 49104666 heartbeat IPC: 1.04047 cumulative IPC: 1.05852 (Simulation time: 0 hr 3 min 47 sec) 
+Heartbeat CPU 0 instructions: 130000003 cycles: 58819534 heartbeat IPC: 1.02935 cumulative IPC: 1.04862 (Simulation time: 0 hr 4 min 0 sec) 
+Heartbeat CPU 0 instructions: 140000000 cycles: 68200392 heartbeat IPC: 1.066 cumulative IPC: 1.05291 (Simulation time: 0 hr 4 min 14 sec) 
+Heartbeat CPU 0 instructions: 150000002 cycles: 77573883 heartbeat IPC: 1.06684 cumulative IPC: 1.05567 (Simulation time: 0 hr 4 min 27 sec) 
+Heartbeat CPU 0 instructions: 160000003 cycles: 87195004 heartbeat IPC: 1.03938 cumulative IPC: 1.05292 (Simulation time: 0 hr 4 min 40 sec) 
+Heartbeat CPU 0 instructions: 170000000 cycles: 96680558 heartbeat IPC: 1.05423 cumulative IPC: 1.0531 (Simulation time: 0 hr 4 min 53 sec) 
+Heartbeat CPU 0 instructions: 180000003 cycles: 105946890 heartbeat IPC: 1.07918 cumulative IPC: 1.05629 (Simulation time: 0 hr 5 min 7 sec) 
+Heartbeat CPU 0 instructions: 190000001 cycles: 115326387 heartbeat IPC: 1.06616 cumulative IPC: 1.05738 (Simulation time: 0 hr 5 min 20 sec) 
+Heartbeat CPU 0 instructions: 200000001 cycles: 124822809 heartbeat IPC: 1.05303 cumulative IPC: 1.05694 (Simulation time: 0 hr 5 min 34 sec) 
+Heartbeat CPU 0 instructions: 210000002 cycles: 134503344 heartbeat IPC: 1.033 cumulative IPC: 1.05472 (Simulation time: 0 hr 5 min 46 sec) 
+Heartbeat CPU 0 instructions: 220000000 cycles: 143892989 heartbeat IPC: 1.065 cumulative IPC: 1.05557 (Simulation time: 0 hr 6 min 0 sec) 
+Heartbeat CPU 0 instructions: 230000001 cycles: 153603371 heartbeat IPC: 1.02983 cumulative IPC: 1.05354 (Simulation time: 0 hr 6 min 13 sec) 
+Heartbeat CPU 0 instructions: 240000003 cycles: 163018665 heartbeat IPC: 1.0621 cumulative IPC: 1.05415 (Simulation time: 0 hr 6 min 26 sec) 
+Heartbeat CPU 0 instructions: 250000001 cycles: 172478051 heartbeat IPC: 1.05715 cumulative IPC: 1.05435 (Simulation time: 0 hr 6 min 39 sec) 
+Heartbeat CPU 0 instructions: 260000002 cycles: 182106532 heartbeat IPC: 1.03859 cumulative IPC: 1.05335 (Simulation time: 0 hr 6 min 52 sec) 
+Heartbeat CPU 0 instructions: 270000001 cycles: 191584838 heartbeat IPC: 1.05504 cumulative IPC: 1.05345 (Simulation time: 0 hr 7 min 6 sec) 
+Heartbeat CPU 0 instructions: 280000003 cycles: 201156963 heartbeat IPC: 1.0447 cumulative IPC: 1.05296 (Simulation time: 0 hr 7 min 19 sec) 
+Heartbeat CPU 0 instructions: 290000000 cycles: 210879774 heartbeat IPC: 1.02851 cumulative IPC: 1.05164 (Simulation time: 0 hr 7 min 32 sec) 
+Heartbeat CPU 0 instructions: 300000002 cycles: 220526067 heartbeat IPC: 1.03667 cumulative IPC: 1.05089 (Simulation time: 0 hr 7 min 45 sec) 
+Heartbeat CPU 0 instructions: 310000001 cycles: 230276075 heartbeat IPC: 1.02564 cumulative IPC: 1.04966 (Simulation time: 0 hr 7 min 58 sec) 
+Heartbeat CPU 0 instructions: 320000002 cycles: 240022931 heartbeat IPC: 1.02597 cumulative IPC: 1.04856 (Simulation time: 0 hr 8 min 11 sec) 
+Heartbeat CPU 0 instructions: 330000000 cycles: 249772342 heartbeat IPC: 1.0257 cumulative IPC: 1.04754 (Simulation time: 0 hr 8 min 24 sec) 
+Heartbeat CPU 0 instructions: 340000001 cycles: 259404797 heartbeat IPC: 1.03816 cumulative IPC: 1.04715 (Simulation time: 0 hr 8 min 37 sec) 
+Heartbeat CPU 0 instructions: 350000001 cycles: 269119200 heartbeat IPC: 1.0294 cumulative IPC: 1.04642 (Simulation time: 0 hr 8 min 50 sec) 
+Heartbeat CPU 0 instructions: 360000000 cycles: 278806324 heartbeat IPC: 1.0323 cumulative IPC: 1.04587 (Simulation time: 0 hr 9 min 2 sec) 
+Heartbeat CPU 0 instructions: 370000000 cycles: 288456301 heartbeat IPC: 1.03627 cumulative IPC: 1.04552 (Simulation time: 0 hr 9 min 15 sec) 
+Heartbeat CPU 0 instructions: 380000002 cycles: 297403713 heartbeat IPC: 1.11764 cumulative IPC: 1.04793 (Simulation time: 0 hr 9 min 30 sec) 
+Heartbeat CPU 0 instructions: 390000002 cycles: 306860020 heartbeat IPC: 1.0575 cumulative IPC: 1.04826 (Simulation time: 0 hr 9 min 43 sec) 
+Heartbeat CPU 0 instructions: 400000001 cycles: 316545935 heartbeat IPC: 1.03243 cumulative IPC: 1.04772 (Simulation time: 0 hr 9 min 56 sec) 
+Heartbeat CPU 0 instructions: 410000002 cycles: 326246525 heartbeat IPC: 1.03087 cumulative IPC: 1.04717 (Simulation time: 0 hr 10 min 10 sec) 
+Heartbeat CPU 0 instructions: 420000000 cycles: 335973588 heartbeat IPC: 1.02806 cumulative IPC: 1.04656 (Simulation time: 0 hr 10 min 23 sec) 
+Heartbeat CPU 0 instructions: 430000000 cycles: 345128976 heartbeat IPC: 1.09225 cumulative IPC: 1.04789 (Simulation time: 0 hr 10 min 37 sec) 
+Heartbeat CPU 0 instructions: 440000000 cycles: 354499222 heartbeat IPC: 1.06721 cumulative IPC: 1.04845 (Simulation time: 0 hr 10 min 50 sec) 
+Heartbeat CPU 0 instructions: 450000003 cycles: 362979470 heartbeat IPC: 1.17921 cumulative IPC: 1.05178 (Simulation time: 0 hr 11 min 6 sec) 
+Heartbeat CPU 0 instructions: 460000000 cycles: 372674580 heartbeat IPC: 1.03145 cumulative IPC: 1.0512 (Simulation time: 0 hr 11 min 19 sec) 
+Heartbeat CPU 0 instructions: 470000002 cycles: 382345924 heartbeat IPC: 1.03398 cumulative IPC: 1.05073 (Simulation time: 0 hr 11 min 32 sec) 
+Heartbeat CPU 0 instructions: 480000002 cycles: 391960830 heartbeat IPC: 1.04005 cumulative IPC: 1.05045 (Simulation time: 0 hr 11 min 45 sec) 
+Heartbeat CPU 0 instructions: 490000002 cycles: 414718139 heartbeat IPC: 0.439419 cumulative IPC: 1.01428 (Simulation time: 0 hr 12 min 13 sec) 
+Heartbeat CPU 0 instructions: 500000000 cycles: 421803700 heartbeat IPC: 1.41132 cumulative IPC: 1.02147 (Simulation time: 0 hr 12 min 38 sec) 
+Heartbeat CPU 0 instructions: 510000002 cycles: 428675841 heartbeat IPC: 1.45515 cumulative IPC: 1.02895 (Simulation time: 0 hr 13 min 2 sec) 
+Heartbeat CPU 0 instructions: 520000000 cycles: 435360604 heartbeat IPC: 1.49594 cumulative IPC: 1.03665 (Simulation time: 0 hr 13 min 27 sec) 
+Heartbeat CPU 0 instructions: 530000000 cycles: 442006771 heartbeat IPC: 1.50463 cumulative IPC: 1.04421 (Simulation time: 0 hr 13 min 51 sec) 
+Heartbeat CPU 0 instructions: 540000003 cycles: 448862445 heartbeat IPC: 1.45865 cumulative IPC: 1.05099 (Simulation time: 0 hr 14 min 16 sec) 
+Heartbeat CPU 0 instructions: 550000000 cycles: 455734195 heartbeat IPC: 1.45523 cumulative IPC: 1.05752 (Simulation time: 0 hr 14 min 40 sec) 
+Heartbeat CPU 0 instructions: 560000000 cycles: 466498137 heartbeat IPC: 0.929028 cumulative IPC: 1.05435 (Simulation time: 0 hr 15 min 8 sec) 
+Heartbeat CPU 0 instructions: 570000001 cycles: 486454645 heartbeat IPC: 0.50109 cumulative IPC: 1.03015 (Simulation time: 0 hr 15 min 40 sec) 
+Heartbeat CPU 0 instructions: 580000002 cycles: 493422858 heartbeat IPC: 1.43509 cumulative IPC: 1.03624 (Simulation time: 0 hr 16 min 5 sec) 
+Heartbeat CPU 0 instructions: 590000000 cycles: 500151486 heartbeat IPC: 1.48619 cumulative IPC: 1.04268 (Simulation time: 0 hr 16 min 29 sec) 
+Heartbeat CPU 0 instructions: 600000000 cycles: 506751832 heartbeat IPC: 1.51507 cumulative IPC: 1.04923 (Simulation time: 0 hr 16 min 53 sec) 
+Heartbeat CPU 0 instructions: 610000001 cycles: 513399686 heartbeat IPC: 1.50424 cumulative IPC: 1.05549 (Simulation time: 0 hr 17 min 18 sec) 
+Heartbeat CPU 0 instructions: 620000001 cycles: 520278730 heartbeat IPC: 1.45369 cumulative IPC: 1.06108 (Simulation time: 0 hr 17 min 42 sec) 
+Heartbeat CPU 0 instructions: 630000003 cycles: 526942175 heartbeat IPC: 1.50073 cumulative IPC: 1.06697 (Simulation time: 0 hr 18 min 7 sec) 
+Heartbeat CPU 0 instructions: 640000000 cycles: 547218696 heartbeat IPC: 0.493181 cumulative IPC: 1.04447 (Simulation time: 0 hr 18 min 40 sec) 
+Heartbeat CPU 0 instructions: 650000000 cycles: 554228793 heartbeat IPC: 1.42651 cumulative IPC: 1.04958 (Simulation time: 0 hr 19 min 5 sec) 
+Heartbeat CPU 0 instructions: 660000000 cycles: 560978024 heartbeat IPC: 1.48165 cumulative IPC: 1.05508 (Simulation time: 0 hr 19 min 29 sec) 
+Heartbeat CPU 0 instructions: 670000002 cycles: 567607190 heartbeat IPC: 1.50849 cumulative IPC: 1.06067 (Simulation time: 0 hr 19 min 54 sec) 
+Heartbeat CPU 0 instructions: 680000002 cycles: 574153207 heartbeat IPC: 1.52765 cumulative IPC: 1.06629 (Simulation time: 0 hr 20 min 19 sec) 
+Heartbeat CPU 0 instructions: 690000001 cycles: 581005805 heartbeat IPC: 1.4593 cumulative IPC: 1.07118 (Simulation time: 0 hr 20 min 43 sec) 
+Heartbeat CPU 0 instructions: 700000003 cycles: 587766980 heartbeat IPC: 1.47903 cumulative IPC: 1.07612 (Simulation time: 0 hr 21 min 8 sec) 
+Heartbeat CPU 0 instructions: 710000001 cycles: 606038565 heartbeat IPC: 0.547298 cumulative IPC: 1.05934 (Simulation time: 0 hr 21 min 39 sec) 
+Heartbeat CPU 0 instructions: 720000002 cycles: 615440058 heartbeat IPC: 1.06366 cumulative IPC: 1.05941 (Simulation time: 0 hr 22 min 5 sec) 
+Heartbeat CPU 0 instructions: 730000002 cycles: 622179760 heartbeat IPC: 1.48375 cumulative IPC: 1.06424 (Simulation time: 0 hr 22 min 30 sec) 
+Heartbeat CPU 0 instructions: 740000002 cycles: 628779922 heartbeat IPC: 1.51511 cumulative IPC: 1.06922 (Simulation time: 0 hr 22 min 54 sec) 
+Heartbeat CPU 0 instructions: 750000000 cycles: 635303572 heartbeat IPC: 1.53288 cumulative IPC: 1.07421 (Simulation time: 0 hr 23 min 19 sec) 
+Heartbeat CPU 0 instructions: 760000000 cycles: 642012318 heartbeat IPC: 1.49059 cumulative IPC: 1.07878 (Simulation time: 0 hr 23 min 43 sec) 
+Heartbeat CPU 0 instructions: 770000000 cycles: 648744759 heartbeat IPC: 1.48535 cumulative IPC: 1.08321 (Simulation time: 0 hr 24 min 8 sec) 
+Heartbeat CPU 0 instructions: 780000002 cycles: 655381543 heartbeat IPC: 1.50675 cumulative IPC: 1.0877 (Simulation time: 0 hr 24 min 32 sec) 
+Heartbeat CPU 0 instructions: 790000000 cycles: 675091744 heartbeat IPC: 0.507351 cumulative IPC: 1.06996 (Simulation time: 0 hr 25 min 4 sec) 
+Heartbeat CPU 0 instructions: 800000000 cycles: 682017747 heartbeat IPC: 1.44383 cumulative IPC: 1.07394 (Simulation time: 0 hr 25 min 29 sec) 
+Heartbeat CPU 0 instructions: 810000000 cycles: 688591192 heartbeat IPC: 1.52127 cumulative IPC: 1.0784 (Simulation time: 0 hr 25 min 53 sec) 
+Heartbeat CPU 0 instructions: 820000000 cycles: 695201599 heartbeat IPC: 1.51277 cumulative IPC: 1.08272 (Simulation time: 0 hr 26 min 18 sec) 
+Heartbeat CPU 0 instructions: 830000002 cycles: 701799777 heartbeat IPC: 1.51557 cumulative IPC: 1.08697 (Simulation time: 0 hr 26 min 42 sec) 
+Heartbeat CPU 0 instructions: 840000002 cycles: 708567518 heartbeat IPC: 1.4776 cumulative IPC: 1.09087 (Simulation time: 0 hr 27 min 7 sec) 
+Heartbeat CPU 0 instructions: 850000001 cycles: 715228276 heartbeat IPC: 1.50133 cumulative IPC: 1.09486 (Simulation time: 0 hr 27 min 32 sec) 
+Heartbeat CPU 0 instructions: 860000000 cycles: 734962207 heartbeat IPC: 0.506741 cumulative IPC: 1.07839 (Simulation time: 0 hr 28 min 3 sec) 
+Heartbeat CPU 0 instructions: 870000002 cycles: 741863872 heartbeat IPC: 1.44893 cumulative IPC: 1.08199 (Simulation time: 0 hr 28 min 28 sec) 
+Heartbeat CPU 0 instructions: 880000000 cycles: 748501716 heartbeat IPC: 1.50651 cumulative IPC: 1.08591 (Simulation time: 0 hr 28 min 52 sec) 
+Heartbeat CPU 0 instructions: 890000002 cycles: 755085592 heartbeat IPC: 1.51886 cumulative IPC: 1.08984 (Simulation time: 0 hr 29 min 17 sec) 
+Heartbeat CPU 0 instructions: 900000002 cycles: 761609009 heartbeat IPC: 1.53294 cumulative IPC: 1.09379 (Simulation time: 0 hr 29 min 41 sec) 
+Heartbeat CPU 0 instructions: 910000000 cycles: 768302122 heartbeat IPC: 1.49407 cumulative IPC: 1.09742 (Simulation time: 0 hr 30 min 6 sec) 
+Heartbeat CPU 0 instructions: 920000001 cycles: 775004774 heartbeat IPC: 1.49195 cumulative IPC: 1.10098 (Simulation time: 0 hr 30 min 31 sec) 
+Heartbeat CPU 0 instructions: 930000003 cycles: 781561456 heartbeat IPC: 1.52516 cumulative IPC: 1.10468 (Simulation time: 0 hr 30 min 55 sec) 
+Heartbeat CPU 0 instructions: 940000000 cycles: 801708643 heartbeat IPC: 0.496347 cumulative IPC: 1.08879 (Simulation time: 0 hr 31 min 28 sec) 
+Heartbeat CPU 0 instructions: 950000000 cycles: 808589854 heartbeat IPC: 1.45323 cumulative IPC: 1.09201 (Simulation time: 0 hr 31 min 52 sec) 
+Heartbeat CPU 0 instructions: 960000001 cycles: 815082874 heartbeat IPC: 1.54012 cumulative IPC: 1.09572 (Simulation time: 0 hr 32 min 17 sec) 
+Heartbeat CPU 0 instructions: 970000000 cycles: 821625557 heartbeat IPC: 1.52842 cumulative IPC: 1.0993 (Simulation time: 0 hr 32 min 41 sec) 
+Heartbeat CPU 0 instructions: 980000001 cycles: 828210950 heartbeat IPC: 1.51851 cumulative IPC: 1.10276 (Simulation time: 0 hr 33 min 5 sec) 
+Heartbeat CPU 0 instructions: 990000000 cycles: 834942010 heartbeat IPC: 1.48565 cumulative IPC: 1.10596 (Simulation time: 0 hr 33 min 30 sec) 
+Heartbeat CPU 0 instructions: 1000000003 cycles: 841555118 heartbeat IPC: 1.51215 cumulative IPC: 1.10927 (Simulation time: 0 hr 33 min 54 sec) 
+Heartbeat CPU 0 instructions: 1010000000 cycles: 861793528 heartbeat IPC: 0.49411 cumulative IPC: 1.0943 (Simulation time: 0 hr 34 min 26 sec) 
+Heartbeat CPU 0 instructions: 1020000002 cycles: 868668271 heartbeat IPC: 1.4546 cumulative IPC: 1.09725 (Simulation time: 0 hr 34 min 51 sec) 
+Heartbeat CPU 0 instructions: 1030000000 cycles: 875202257 heartbeat IPC: 1.53046 cumulative IPC: 1.1006 (Simulation time: 0 hr 35 min 16 sec) 
+Heartbeat CPU 0 instructions: 1040000000 cycles: 881764859 heartbeat IPC: 1.52379 cumulative IPC: 1.10386 (Simulation time: 0 hr 35 min 40 sec) 
+Heartbeat CPU 0 instructions: 1050000001 cycles: 888252898 heartbeat IPC: 1.5413 cumulative IPC: 1.10717 (Simulation time: 0 hr 36 min 5 sec) 
+Heartbeat CPU 0 instructions: 1060000000 cycles: 894907971 heartbeat IPC: 1.50261 cumulative IPC: 1.11021 (Simulation time: 0 hr 36 min 30 sec) 
+Heartbeat CPU 0 instructions: 1070000001 cycles: 901578707 heartbeat IPC: 1.49909 cumulative IPC: 1.11319 (Simulation time: 0 hr 36 min 54 sec) 
+Heartbeat CPU 0 instructions: 1080000002 cycles: 915575340 heartbeat IPC: 0.714458 cumulative IPC: 1.10689 (Simulation time: 0 hr 37 min 24 sec) 
+Heartbeat CPU 0 instructions: 1090000001 cycles: 927524523 heartbeat IPC: 0.836877 cumulative IPC: 1.10329 (Simulation time: 0 hr 37 min 51 sec) 
+Heartbeat CPU 0 instructions: 1100000000 cycles: 934293099 heartbeat IPC: 1.47742 cumulative IPC: 1.10609 (Simulation time: 0 hr 38 min 16 sec) 
+Finished CPU 0 instructions: 1000000000 cycles: 904082710 cumulative IPC: 1.10609 (Simulation time: 0 hr 38 min 16 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 1.10609 instructions: 1000000000 cycles: 904082710
+L1D TOTAL     ACCESS:  230629812  HIT:  228390120  MISS:    2239692
+L1D LOAD      ACCESS:  142335630  HIT:  140990925  MISS:    1344705
+L1D RFO       ACCESS:   88294182  HIT:   87399195  MISS:     894987
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D AVERAGE MISS LATENCY: 204.045 cycles
+L1I TOTAL     ACCESS:  186024997  HIT:  186024926  MISS:         71
+L1I LOAD      ACCESS:  186024997  HIT:  186024926  MISS:         71
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: 207.944 cycles
+L2C TOTAL     ACCESS:    3134862  HIT:     894597  MISS:    2240265
+L2C LOAD      ACCESS:    1344776  HIT:        410  MISS:    1344366
+L2C RFO       ACCESS:     894984  HIT:        935  MISS:     894049
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:     895102  HIT:     893252  MISS:       1850
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C AVERAGE MISS LATENCY: 191.539 cycles
+LLC TOTAL     ACCESS:    3132423  HIT:     658575  MISS:    2473848
+LLC LOAD      ACCESS:    1344366  HIT:     204723  MISS:    1139643
+LLC RFO       ACCESS:     894049  HIT:     178846  MISS:     715203
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:     894008  HIT:     275006  MISS:     619002
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC AVERAGE MISS LATENCY: 136.871 cycles
+Major fault: 0 Minor fault: 16776
+==============================
+Perceptron RRIP Stats:
+   Num Updates:          357904
+   Num Primary Trains:   3420
+   Num Secondary Trains: 3702
+==============================
+primary_perceptron #0: -2 -2 8 0 -4 -2 2 2 -6 -2 4 4 2 8 6 -34 
+secondary_perceptron #0: -4 0 14 -4 -4 0 4 0 -2 -4 8 6 0 10 8 6 -2 0 2 0 -54 
+
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:     350173  ROW_BUFFER_MISS:    1504646
+ DBUS_CONGESTED:     513945
+ WQ ROW_BUFFER_HIT:     409474  ROW_BUFFER_MISS:     309679  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 6
+
+CPU 0 Branch Prediction Accuracy: 91.4265% MPKI: 10.8386 Average ROB Occupancy at Mispredict: 17.0546
+
+Branch types
+NOT_BRANCH: 873580538 87.3581%
+BRANCH_DIRECT_JUMP: 10632506 1.06325%
+BRANCH_INDIRECT: 238987 0.0238987%
+BRANCH_CONDITIONAL: 92907924 9.29079%
+BRANCH_DIRECT_CALL: 11320021 1.132%
+BRANCH_INDIRECT_CALL: 0 0%
+BRANCH_RETURN: 11320025 1.132%
+BRANCH_OTHER: 0 0%
+
